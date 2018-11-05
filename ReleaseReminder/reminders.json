@@ -1,0 +1,12 @@
+{
+    "reminders": [
+        {
+            "title": "idk",
+            "category": "Movies",
+            "genres": [
+                "Comedy"
+            ],
+            "releaseDate": "7 December, 2019"
+        }
+    ]
+}

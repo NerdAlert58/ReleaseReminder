@@ -7,6 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using ReleaseReminder.Models;
 
 namespace ReleaseReminder
 {
@@ -14,7 +15,10 @@ namespace ReleaseReminder
     {
         public static void Main(string[] args)
         {
+            var path = "reminders.json";
+            var reminderProvider = new ReminderProvider(path);
             CreateWebHostBuilder(args).Build().Run();
+
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>

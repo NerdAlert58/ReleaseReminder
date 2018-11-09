@@ -30,3 +30,4 @@ C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreap
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.dll
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.pdb
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.csproj.CopyComplete
+C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\Forms.g.cshtml.cs

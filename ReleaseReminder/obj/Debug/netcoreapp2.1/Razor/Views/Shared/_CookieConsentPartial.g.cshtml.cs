@@ -96,9 +96,15 @@ using Microsoft.AspNetCore.Http.Features;
                 <div class=""navbar-right"">
                     ");
             EndContext();
+<<<<<<< HEAD
+            BeginContext(1234, 92, false);
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c5f2e025e1004bf082816c7b81dfa11f", async() => {
+                BeginContext(1312, 10, true);
+=======
             BeginContext(1208, 92, false);
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9c9da2df0298424586ba9fff74a370f5", async() => {
                 BeginContext(1286, 10, true);
+>>>>>>> 23def8e5645036a13fff2206d89b8e97f6948f86
                 WriteLiteral("Learn More");
                 EndContext();
             }

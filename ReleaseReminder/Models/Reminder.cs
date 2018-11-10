@@ -23,13 +23,16 @@ namespace ReleaseReminder.Models
     public enum Genre
     {
         Horror,
-        ActionAdventure,
+        Action,
+        Adventure,
         Comedy,
         Country,
         Pop,
         Rap,
         FPS,
         MMORPG,
+        RPG,
+        Fighting,
         ABC,
         NBC,
         FOX,

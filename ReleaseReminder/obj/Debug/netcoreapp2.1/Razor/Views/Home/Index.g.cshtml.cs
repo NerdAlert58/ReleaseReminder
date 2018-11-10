@@ -74,13 +74,8 @@ using ReleaseReminder.Models;
         <div class=""item active"">
             ");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(484, 71, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "f930b2b0c7ab44eabd1ef62efa5a483d", async() => {
-=======
             BeginContext(472, 71, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "885f3766240d43afb831a7cd3e71acb2", async() => {
->>>>>>> 23def8e5645036a13fff2206d89b8e97f6948f86
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0cd9657af6f94d64854a7e78df5c6f35", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -110,13 +105,8 @@ using ReleaseReminder.Models;
         <div class=""item"">
             ");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(987, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "05c2514df8474771a650bf4114423ae1", async() => {
-=======
             BeginContext(964, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "61988b133319473eb335dd61bbe6eb5b", async() => {
->>>>>>> 23def8e5645036a13fff2206d89b8e97f6948f86
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "d891b1e09613420c8dd88cc381fdde30", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -146,13 +136,8 @@ using ReleaseReminder.Models;
         <div class=""item"">
             ");
             EndContext();
-<<<<<<< HEAD
-            BeginContext(1520, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "4a87e69724a54193ae041c137a550ce7", async() => {
-=======
             BeginContext(1486, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "20978308c53a48e18e60df629db279eb", async() => {
->>>>>>> 23def8e5645036a13fff2206d89b8e97f6948f86
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "47153dd8f8e3448889f2a1d00ae74efa", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

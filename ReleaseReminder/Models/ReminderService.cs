@@ -1,7 +1,10 @@
 namespace ReleaseReminder.Models
 {
-    public class ReminderService
+    public class ReminderService : IReminderService
     {
-
+        public void Display()
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

@@ -1511,6 +1511,140 @@
                 "Adventure"
             ],
             "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Vikings",
+            "category": "TV Show",
+            "genre": [
+                "Drama",
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "28 November 2018"
+        },
+        {
+            "title": "Nightflyers",
+            "category": "TV Show",
+            "genre": [
+                "Science Fiction",
+                "Horror"
+            ],
+            "releaseDate": "02 December 2018"
+        },
+        {
+            "title": "Botched",
+            "category": "TV Show",
+            "genre": [
+                "Reality Television"
+            ],
+            "releaseDate": "06 December 2018"
+        },
+        {
+            "title": "Counterpart",
+            "category": "TV Show",
+            "genre": [
+                "Science Fiction",
+                "Thriller"
+            ],
+            "releaseDate": "09 December 2018"
+        },
+        {
+            "title": "Marvel's Runaways",
+            "category": "TV Show",
+            "genre": [
+                "Adventure",
+                "Superhero",
+                "Teen Drama"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "The Passage",
+            "category": "TV Show",
+            "genre": [
+                "Drama"
+            ],
+            "releaseDate": "14 January 2019"
+        },
+        {
+            "title": "Deadly Class",
+            "category": "TV Show",
+            "genre": [
+                "Action",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "16 January 2019"
+        },
+        {
+            "title": "A Discover of Witches",
+            "category": "TV Show",
+            "genre": [
+                "Fantasy",
+                "Romance",
+                "Drama"
+            ],
+            "releaseDate": "17 January 2019"
+        },
+        {
+            "title": "Good Trouble",
+            "category": "TV Show",
+            "genre": [
+                "Family Drama"
+            ],
+            "releaseDate": "08 January 2019"
+        },
+        {
+            "title": "The Masked Singer",
+            "category": "TV Show",
+            "genre": [
+                "Reality Television"
+            ],
+            "releaseDate": "02 January 2019"
+        },
+        {
+            "title": "The Marvelous Mrs. Maisel",
+            "category": "TV Show",
+            "genre": [
+                "Comedy",
+                "Drama"
+            ],
+            "releaseDate": "05 December 2018"
+        },
+        {
+            "title": "Berlin Station",
+            "category": "TV Show",
+            "genre": [
+                "Drama"
+            ],
+            "releaseDate": "03 December 2018"
+        },
+        {
+            "title": "The Profit",
+            "category": "TV Show",
+            "genre": [
+                "Reality Television"
+            ],
+            "releaseDate": "04 December 2018"
+        },
+        {
+            "title": "Tidelands",
+            "category": "TV Show",
+            "genre": [
+                "Supernatural",
+                "Crime",
+                "Drama"
+            ],
+            "releaseDate": "14 December 2018"
+        },
+        {
+            "title": "Tales of Arcadia",
+            "category": "TV Show",
+            "genre": [
+                "Animated Series",
+                "Science Fantasy"
+            ],
+            "releaseDate": "21 December 2018"
         }
     ]
 }

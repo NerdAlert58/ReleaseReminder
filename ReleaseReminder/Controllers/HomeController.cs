@@ -4,12 +4,19 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
 using ReleaseReminder.Models;
 
 namespace ReleaseReminder.Controllers
 {
     public class HomeController : Controller
     {
+        private IReminderService _reminderService;
+        public HomeController(IServiceProvider services)
+        {
+            var reminderService = (ReminderService)services.GetService(typeof(IReminderService));
+            _reminderService = reminderService ?? throw new ArgumentNullException(nameof(reminderService));
+        }
         public IActionResult Index()
         {
             return View();
@@ -36,6 +43,7 @@ namespace ReleaseReminder.Controllers
 
         public IActionResult Forms()
         {
+            // _reminderService.Display()
             return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

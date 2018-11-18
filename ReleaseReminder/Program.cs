@@ -15,8 +15,7 @@ namespace ReleaseReminder
     {
         public static void Main(string[] args)
         {
-            var path = "reminders.json";
-            var reminderProvider = new ReminderProvider(path);
+
             CreateWebHostBuilder(args).Build().Run();
 
         }

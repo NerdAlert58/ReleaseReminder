@@ -40,6 +40,11 @@ namespace ReleaseReminder.Models
             }
         }
 
+        public IList<Reminder> Display()
+        {
+            return _reminders;
+        }
+
         public void InsertUser(User user)
         {
             throw new System.NotImplementedException();

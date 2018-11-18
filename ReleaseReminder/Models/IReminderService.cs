@@ -10,5 +10,6 @@ namespace ReleaseReminder.Models
         User RetrieveUser(string name);
         void CreateUser(string username, string email, string phone, string password, IList<Reminder> reminders);
         void SendNotification();
+        IList<Reminder> Display();
     }
 }

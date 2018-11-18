@@ -43,7 +43,7 @@ namespace ReleaseReminder.Controllers
 
         public IActionResult Forms()
         {
-            // _reminderService.Display()
+            _reminderService.Display();
             return View();
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using ReleaseReminder.Models;
+using ReleaseReminder.SMTP;
+using ReleaseReminder.SMTP.Service;
 
 namespace ReleaseReminder
 {
@@ -38,8 +40,8 @@ namespace ReleaseReminder
             services.AddSingleton<IReminderService>(reminderService);
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-
-
+            services.AddSingleton<IEmailConfiguration>(Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
+            services.AddTransient<IEmailService, EmailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

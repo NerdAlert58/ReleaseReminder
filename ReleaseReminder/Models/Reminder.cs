@@ -60,6 +60,7 @@ namespace ReleaseReminder.Models
         ABC,
         NBC,
         FOX,
+        Reality,
         YoungAdult,
         Political,
         ScienceFiction

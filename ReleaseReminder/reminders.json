@@ -1514,8 +1514,8 @@
         },
         {
             "title": "Vikings",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Drama",
                 "Action",
                 "Adventure"
@@ -1524,34 +1524,34 @@
         },
         {
             "title": "Nightflyers",
-            "category": "TV Show",
-            "genre": [
-                "Science Fiction",
+            "category": "Television",
+            "genres": [
+                "ScienceFiction",
                 "Horror"
             ],
             "releaseDate": "02 December 2018"
         },
         {
             "title": "Botched",
-            "category": "TV Show",
-            "genre": [
-                "Reality Television"
+            "category": "Television",
+            "genres": [
+                "Reality"
             ],
             "releaseDate": "06 December 2018"
         },
         {
             "title": "Counterpart",
-            "category": "TV Show",
-            "genre": [
-                "Science Fiction",
+            "category": "Television",
+            "genres": [
+                "ScienceFiction",
                 "Thriller"
             ],
             "releaseDate": "09 December 2018"
         },
         {
             "title": "Marvel's Runaways",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Adventure",
                 "Superhero",
                 "Teen Drama"
@@ -1560,16 +1560,16 @@
         },
         {
             "title": "The Passage",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Drama"
             ],
             "releaseDate": "14 January 2019"
         },
         {
             "title": "Deadly Class",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Action",
                 "Drama",
                 "Thriller"
@@ -1578,8 +1578,8 @@
         },
         {
             "title": "A Discover of Witches",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Fantasy",
                 "Romance",
                 "Drama"
@@ -1588,24 +1588,25 @@
         },
         {
             "title": "Good Trouble",
-            "category": "TV Show",
-            "genre": [
-                "Family Drama"
+            "category": "Television",
+            "genres": [
+                "Family",
+                "Drama"
             ],
             "releaseDate": "08 January 2019"
         },
         {
             "title": "The Masked Singer",
-            "category": "TV Show",
-            "genre": [
-                "Reality Television"
+            "category": "Television",
+            "genres": [
+                "Reality"
             ],
             "releaseDate": "02 January 2019"
         },
         {
             "title": "The Marvelous Mrs. Maisel",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Comedy",
                 "Drama"
             ],
@@ -1613,24 +1614,24 @@
         },
         {
             "title": "Berlin Station",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Drama"
             ],
             "releaseDate": "03 December 2018"
         },
         {
             "title": "The Profit",
-            "category": "TV Show",
-            "genre": [
-                "Reality Television"
+            "category": "Television",
+            "genres": [
+                "Reality"
             ],
             "releaseDate": "04 December 2018"
         },
         {
             "title": "Tidelands",
-            "category": "TV Show",
-            "genre": [
+            "category": "Television",
+            "genres": [
                 "Supernatural",
                 "Crime",
                 "Drama"
@@ -1639,10 +1640,11 @@
         },
         {
             "title": "Tales of Arcadia",
-            "category": "TV Show",
-            "genre": [
-                "Animated Series",
-                "Science Fantasy"
+            "category": "Television",
+            "genres": [
+                "Animation",
+                "ScienceFiction",
+                "Fantasy"
             ],
             "releaseDate": "21 December 2018"
         }

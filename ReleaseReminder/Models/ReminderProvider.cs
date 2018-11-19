@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using Newtonsoft.Json;
 
 namespace ReleaseReminder.Models
@@ -14,6 +15,7 @@ namespace ReleaseReminder.Models
         public ReminderProvider()
         {
             _reminders = ReadFile(_filePath) ?? throw new ArgumentNullException(nameof(_reminders));
+            _reminders = _reminders.OrderBy(o => o.ReleaseDate).ToList();
             _remindersMap = BuildMap() ?? throw new ArgumentNullException(nameof(_remindersMap));
         }
 

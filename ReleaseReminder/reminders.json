@@ -4,9 +4,9 @@
             "title": "Sarkar",
             "category": "Movies",
             "genres": [
+                "Action",
                 "Drama",
                 "Mystery",
-                "Action",
                 "Suspence"
             ],
             "releaseDate": "06 November 2018"
@@ -25,12 +25,12 @@
             "title": "Overlord",
             "category": "Movies",
             "genres": [
-                "Horror",
                 "Action",
-                "Thriller",
+                "Horror",
+                "Mystery",
                 "ScienceFiction",
-                "War",
-                "Mystery"
+                "Thriller",
+                "War"
             ],
             "releaseDate": "09 November 2018"
         },
@@ -38,8 +38,8 @@
             "title": "The Girl in the Spider's Web: A New Dragon Tattoo Story",
             "category": "Movies",
             "genres": [
-                "Drama",
                 "Crime",
+                "Drama",
                 "Thriller"
             ],
             "releaseDate": "09 November 2018"
@@ -69,9 +69,9 @@
             "category": "Movies",
             "genres": [
                 "Comedy",
-                "ScienceFiction",
                 "Fantasy",
-                "Romance"
+                "Romance",
+                "ScienceFiction"
             ],
             "releaseDate": "09 November 2018"
         },
@@ -79,9 +79,9 @@
             "title": "El Angel",
             "category": "Movies",
             "genres": [
-                "Drama",
+                "Biography",
                 "Crime",
-                "Biography"
+                "Drama"
             ],
             "releaseDate": "09 November 2018"
         },
@@ -90,8 +90,8 @@
             "category": "Movies",
             "genres": [
                 "Comedy",
-                "Romance",
-                "Drama"
+                "Drama",
+                "Romance"
             ],
             "releaseDate": "09 November 2018"
         },
@@ -110,10 +110,10 @@
             "genres": [
                 "Action",
                 "Adventure",
-                "Kids",
                 "Family",
-                "ScienceFiction",
-                "Fantasy"
+                "Fantasy",
+                "Kids",
+                "ScienceFiction"
             ],
             "releaseDate": "16 November 2018"
         },
@@ -121,8 +121,8 @@
             "title": "Widows",
             "category": "Movies",
             "genres": [
-                "Drama",
                 "Crime",
+                "Drama",
                 "Romance",
                 "Thriller"
             ],
@@ -140,9 +140,9 @@
             "title": "A Private War",
             "category": "Movies",
             "genres": [
+                "Biography",
                 "Drama",
-                "War",
-                "Biography"
+                "War"
             ],
             "releaseDate": "16 November 2018"
         },
@@ -182,10 +182,10 @@
             "genres": [
                 "Animation",
                 "Comedy",
-                "Kids",
                 "Family",
-                "ScienceFiction",
-                "Fantasy"
+                "Fantasy",
+                "Kids",
+                "ScienceFiction"
             ],
             "releaseDate": "21 November 2018"
         },
@@ -193,9 +193,9 @@
             "title": "Green Book",
             "category": "Movies",
             "genres": [
-                "Drama",
                 "Biography",
-                "Comedy"
+                "Comedy",
+                "Drama"
             ],
             "releaseDate": "21 November 2018"
         },
@@ -284,9 +284,9 @@
             "title": "Mary Queen of Scots",
             "category": "Movies",
             "genres": [
+                "Biography",
                 "Drama",
-                "History",
-                "Biography"
+                "History"
             ],
             "releaseDate": "07 December 2018"
         },
@@ -323,10 +323,10 @@
                 "Action",
                 "Adventure",
                 "Animation",
-                "Kids",
                 "Family",
-                "ScienceFiction",
-                "Fantasy"
+                "Fantasy",
+                "Kids",
+                "ScienceFiction"
             ],
             "releaseDate": "14 December 2018"
         },
@@ -334,10 +334,10 @@
             "title": "The Mule",
             "category": "Movies",
             "genres": [
+                "Crime",
                 "Drama",
                 "Mystery",
-                "Thriller",
-                "Crime"
+                "Thriller"
             ],
             "releaseDate": "14 December 2018"
         },
@@ -355,8 +355,8 @@
             "genres": [
                 "Action",
                 "Adventure",
-                "ScienceFiction",
-                "Fantasy"
+                "Fantasy",
+                "ScienceFiction"
             ],
             "releaseDate": "14 December 2018"
         },
@@ -373,8 +373,8 @@
             "category": "Movies",
             "genres": [
                 "Family",
-                "Musical",
-                "Fantasy"
+                "Fantasy",
+                "Musical"
             ],
             "releaseDate": "19 December 2018"
         },
@@ -384,8 +384,8 @@
             "genres": [
                 "Action",
                 "Adventure",
-                "ScienceFiction",
-                "Fantasy"
+                "Fantasy",
+                "ScienceFiction"
             ],
             "releaseDate": "21 December 2018"
         },
@@ -404,8 +404,8 @@
             "genres": [
                 "Action",
                 "Adventure",
-                "ScienceFiction",
-                "Fantasy"
+                "Fantasy",
+                "ScienceFiction"
             ],
             "releaseDate": "21 December 2018"
         },
@@ -413,8 +413,8 @@
             "title": "Zero",
             "category": "Movies",
             "genres": [
-                "Romance",
                 "Drama",
+                "Romance",
                 "ScienceFiction"
             ],
             "releaseDate": "21 December 2018"
@@ -426,8 +426,8 @@
                 "Action",
                 "Adventure",
                 "Comedy",
-                "Mystery",
-                "Crime"
+                "Crime",
+                "Mystery"
             ],
             "releaseDate": "21 December 2018"
         },
@@ -435,9 +435,9 @@
             "title": "Welcome to Marwen",
             "category": "Movies",
             "genres": [
-                "Drama",
-                "Comedy",
                 "Biography",
+                "Comedy",
+                "Drama",
                 "Fantasy"
             ],
             "releaseDate": "21 December 2018"
@@ -455,8 +455,8 @@
             "title": "Vice",
             "category": "Movies",
             "genres": [
-                "Drama",
                 "Biography",
+                "Drama",
                 "History"
             ],
             "releaseDate": "25 December 2018"
@@ -465,10 +465,10 @@
             "title": "Destroyer",
             "category": "Movies",
             "genres": [
-                "Mystery",
                 "Action",
                 "Crime",
                 "Drama",
+                "Mystery",
                 "Thriller"
             ],
             "releaseDate": "25 December 2018"
@@ -495,8 +495,8 @@
             "title": "Animal Crackers",
             "category": "Movies",
             "genres": [
-                "Animation",
                 "Adventure",
+                "Animation",
                 "Comedy",
                 "Family",
                 "Fantasy"
@@ -507,8 +507,8 @@
             "title": "Replicas",
             "category": "Movies",
             "genres": [
-                "Mystery",
                 "Crime",
+                "Mystery",
                 "ScienceFiction",
                 "Thriller"
             ],
@@ -620,9 +620,9 @@
             "title": "The Lego Movie 2: The Second Part",
             "category": "Movies",
             "genres": [
-                "Animation",
                 "Action",
                 "Adventure",
+                "Animation",
                 "Comedy",
                 "Family",
                 "Fantasy",
@@ -686,9 +686,9 @@
             "title": "How to Train Your Dragon: The Hidden World",
             "category": "Movies",
             "genres": [
-                "Animation",
                 "Action",
                 "Adventure",
+                "Animation",
                 "Comedy",
                 "Family",
                 "Fantasy"
@@ -761,8 +761,8 @@
             "title": "Wonder Park",
             "category": "Movies",
             "genres": [
-                "Animation",
                 "Adventure",
+                "Animation",
                 "Comedy",
                 "Family",
                 "Fantasy"
@@ -1022,8 +1022,8 @@
             "title": "Toy Story 4",
             "category": "Movies",
             "genres": [
-                "Animation",
                 "Adventure",
+                "Animation",
                 "Comedy",
                 "Family",
                 "Fantasy"
@@ -1123,8 +1123,8 @@
             "genres": [
                 "Action",
                 "Adventure",
-                "Fantasy",
-                "Family"
+                "Family",
+                "Fantasy"
             ],
             "releaseDate": "09 August 2019"
         },
@@ -1141,9 +1141,9 @@
             "title": "Spies in Disguise",
             "category": "Movies",
             "genres": [
-                "Animation",
                 "Action",
                 "Adventure",
+                "Animation",
                 "Comedy",
                 "Fantasy",
                 "ScienceFiction"
@@ -1438,8 +1438,8 @@
             "title": "Doom Eternal",
             "category": "VideoGames",
             "genres": [
-                "Horror",
-                "FPS"
+                "FPS",
+                "Horror"
             ],
             "releaseDate": "December 25, 2019"
         },
@@ -1516,9 +1516,9 @@
             "title": "Vikings",
             "category": "Television",
             "genres": [
-                "Drama",
                 "Action",
-                "Adventure"
+                "Adventure",
+                "Drama"
             ],
             "releaseDate": "28 November 2018"
         },
@@ -1526,8 +1526,8 @@
             "title": "Nightflyers",
             "category": "Television",
             "genres": [
-                "ScienceFiction",
-                "Horror"
+                "Horror",
+                "ScienceFiction"
             ],
             "releaseDate": "02 December 2018"
         },
@@ -1553,9 +1553,9 @@
             "category": "Television",
             "genres": [
                 "Adventure",
+                "Drama",
                 "Superhero",
-                "Teen",
-                "Drama"
+                "Teen"
             ],
             "releaseDate": "21 December 2018"
         },
@@ -1581,9 +1581,9 @@
             "title": "A Discover of Witches",
             "category": "Television",
             "genres": [
+                "Drama",
                 "Fantasy",
-                "Romance",
-                "Drama"
+                "Romance"
             ],
             "releaseDate": "17 January 2019"
         },
@@ -1633,9 +1633,9 @@
             "title": "Tidelands",
             "category": "Television",
             "genres": [
-                "Fantasy",
                 "Crime",
-                "Drama"
+                "Drama",
+                "Fantasy"
             ],
             "releaseDate": "14 December 2018"
         },
@@ -1644,8 +1644,8 @@
             "category": "Television",
             "genres": [
                 "Animation",
-                "ScienceFiction",
-                "Fantasy"
+                "Fantasy",
+                "ScienceFiction"
             ],
             "releaseDate": "21 December 2018"
         },
@@ -1792,8 +1792,8 @@
             "category": "Books",
             "genres": [
                 "ScienceFiction",
-                "YoungAdult",
-                "Suspence"
+                "Suspence",
+                "YoungAdult"
             ],
             "releaseDate": "1 January 2019"
         },
@@ -1812,8 +1812,8 @@
             "title": "In An Absent Dream",
             "category": "Books",
             "genres": [
-                "Fantasy",
                 "Adventure",
+                "Fantasy",
                 "YoungAdult"
             ],
             "releaseDate": "8 January 2019"
@@ -1822,10 +1822,10 @@
             "title": "The Girl King",
             "category": "Books",
             "genres": [
-                "YoungAdult",
-                "War",
+                "Adventure",
                 "History",
-                "Adventure"
+                "War",
+                "YoungAdult"
             ],
             "releaseDate": "8 January 2019"
         },
@@ -1833,9 +1833,9 @@
             "title": "White Stag",
             "category": "Books",
             "genres": [
+                "Adventure",
                 "Fantasy",
-                "YoungAdult",
-                "Adventure"
+                "YoungAdult"
             ],
             "releaseDate": "8 January 2019"
         },
@@ -1844,9 +1844,9 @@
             "category": "Books",
             "genres": [
                 "Fantasy",
-                "YoungAdult",
+                "Horror",
                 "Suspence",
-                "Horror"
+                "YoungAdult"
             ],
             "releaseDate": "8 January 2019"
         },
@@ -1854,9 +1854,9 @@
             "title": "Courting Darkness",
             "category": "Books",
             "genres": [
+                "Adventure",
                 "Fantasy",
-                "YoungAdult",
-                "Adventure"
+                "YoungAdult"
             ],
             "releaseDate": "5 February 2019"
         },
@@ -1864,9 +1864,9 @@
             "title": "Lady Smoke",
             "category": "Books",
             "genres": [
+                "Adventure",
                 "History",
-                "YoungAdult",
-                "Adventure"
+                "YoungAdult"
             ],
             "releaseDate": "5 February 2019"
         },
@@ -1874,8 +1874,8 @@
             "title": "Dark of the West",
             "category": "Books",
             "genres": [
-                "War",
                 "Adventure",
+                "War",
                 "YoungAdult"
             ],
             "releaseDate": "5 February 2019"
@@ -1884,9 +1884,9 @@
             "title": "The Cerulean",
             "category": "Books",
             "genres": [
+                "Adventure",
                 "Fantasy",
-                "YoungAdult",
-                "Adventure"
+                "YoungAdult"
             ],
             "releaseDate": "5 February 2019"
         },
@@ -1904,10 +1904,10 @@
             "title": "Crown of Feathers",
             "category": "Books",
             "genres": [
-                "War",
-                "YoungAdult",
+                "Adventure",
                 "Fantasy",
-                "Adventure"
+                "War",
+                "YoungAdult"
             ],
             "releaseDate": "12 February 2019"
         },
@@ -1915,9 +1915,9 @@
             "title": "The Blood Spell",
             "category": "Books",
             "genres": [
+                "Adventure",
                 "Fantasy",
-                "YoungAdult",
-                "Adventure"
+                "YoungAdult"
             ],
             "releaseDate": "12 February 2019"
         }

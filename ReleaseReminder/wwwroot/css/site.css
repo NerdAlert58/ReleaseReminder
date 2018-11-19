@@ -35,12 +35,25 @@ body {
         display: none;
     }
 }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+div.table_edit {
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
 }
 
+table {
+    text-align: center;
+    width: 1200px;
+    height: 100px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    overflow: scroll;
+}
 td, th {
     border: 1px solid #dddddd;
     text-align: left;
@@ -48,5 +61,5 @@ td, th {
 }
 
 tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: steelblue;
 }

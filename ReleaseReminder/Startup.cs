@@ -34,14 +34,14 @@ namespace ReleaseReminder
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-            var path = "reminders.json";
-            var reminderProvider = new ReminderProvider(path);
-            var reminderService = new ReminderService(reminderProvider);
-            services.AddSingleton<IReminderService>(reminderService);
-
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddSingleton<IEmailConfiguration>(Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
             services.AddTransient<IEmailService, EmailService>();
+
+            services.AddSingleton<IReminderProvider, ReminderProvider>();
+            services.AddSingleton<IReminderService, ReminderService>();
+
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

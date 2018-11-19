@@ -8,29 +8,34 @@ function mediaSelect(selectObject) {
 
     if (value == "Movies") {
 
-        document.getElementById('checkbox1ID').textContent = 'Horror';
-        document.getElementById('checkbox2ID').textContent = 'Action';
-        document.getElementById('checkbox3ID').textContent = 'Comedy';
-
-        document.getElementById('creatorLabel').textContent = 'Director';
+		tableFilter("Movies");
     }
     else if (value == "Video Games") {
-
-        document.getElementById('checkbox1ID').textContent = 'Horror';
-        document.getElementById('checkbox2ID').textContent = 'FPS';
-        document.getElementById('checkbox3ID').textContent = 'Adventure';
-
-        document.getElementById('creatorLabel').textContent = 'Producer';
+		tableFilter("VideoGames");
     }
     else if (value == "Music") {
-
-        document.getElementById('checkbox1ID').textContent = 'Rock';
-        document.getElementById('checkbox2ID').textContent = 'Pop';
-        document.getElementById('checkbox3ID').textContent = 'Rap';
-
-        document.getElementById('creatorLabel').textContent = 'Artist';
+		tableFilter("music");
     }
     else {
         console.log("The other one.")
     }
+}
+
+function tableFilter(filterVar) {
+	var input, filter, table, tr, td, i;
+	filter = filterVar.toUpperCase();
+	table = document.getElementById("formTable");
+	tr = table.getElementsByTagName("tr");
+
+	// Loop through all table rows, and hide those who don't match the search query
+	for (i = 1; i < tr.length; i++) { //i = 1 to avoid headers
+		td = tr[i].getElementsByTagName("td")[1]; //at[1] because filtering categories
+		if (td) {
+			if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+				tr[i].style.display = "";
+			} else {
+				tr[i].style.display = "none";
+			}
+		}
+	}
 }

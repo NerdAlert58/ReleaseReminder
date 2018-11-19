@@ -16,6 +16,7 @@ namespace ReleaseReminder.Controllers
         {
             var reminderService = (ReminderService)services.GetService(typeof(IReminderService));
             _reminderService = reminderService ?? throw new ArgumentNullException(nameof(reminderService));
+
         }
         public IActionResult Index()
         {
@@ -43,8 +44,13 @@ namespace ReleaseReminder.Controllers
 
         public IActionResult Forms()
         {
-            _reminderService.Display();
-            return View();
+
+            var reminderList = _reminderService.Display();
+        
+
+
+            // ViewBag.reminderList = _reminderService.Display();
+            return View(reminderList);
         }
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

@@ -1,9 +1,10 @@
-﻿@{
+﻿@model List<ReleaseReminder.Models.Reminder>
+
+@{
     ViewData["Title"] = "Add New Reminders";
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
-
 
 <form id="myForm" method="post" enctype="multipart/form-data">
     <div class="row">
@@ -26,12 +27,23 @@
 
 
             <div class="form-group">
-                <label id="creatorLabel" for="creator">Creator: </label>
+                <label id="creatorLabel" for="Genre1">Genre1: </label>
                 <select name="creator" class="form-control">
                     <option value="Select a Type of Media...">Select a Type of Media...</option>
-                    <option value="Option 1">Option 1</option>
-                    <option value="Option 2">Option 2</option>
-                    <option value="Option 3">Option 3</option>
+                </select>
+            </div>
+
+		   <div class="form-group">
+                <label id="creatorLabel" for="Genre2">Genre2: </label>
+                <select name="creator" class="form-control">
+                    <option value="Select a Type of Media...">Select a Type of Media...</option>
+                </select>
+            </div>
+
+			  <div class="form-group">
+                <label id="creatorLabel" for="Genre3">Genre3: </label>
+                <select name="creator" class="form-control">
+                    <option value="Select a Type of Media...">Select a Type of Media...</option>
                 </select>
             </div>
 
@@ -53,46 +65,44 @@
                 <input type="checkbox" name="checkbox3" />
             </div>
 
-
         </div>
 
     </div>
 
     <!--    <button type="submit" form="appNew" value="Submit">Submit</button> -->
-    <table id="formTable">
-        <tr>
-            <th>Selected</th>
-            <th>Release Date</th>
-            <th>Title</th>
-            <th>Genre</th>
-        </tr>
-        <tr>
-            <td><input type="checkbox"/></td>
-            <td>Date 1</td>
-            <td>Title 1</td>
-            <td>Genre 1</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" /></td>
-            <td>Date 2</td>
-            <td>Title 2</td>
-            <td>Genre 2</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" /></td>
-            <td>Date 3</td>
-            <td>Title 3</td>
-            <td>Genre 3</td>
-        </tr>
-        <tr>
-            <td><input type="checkbox" /></td>
-            <td>Date 4</td>
-            <td>Title 4</td>
-            <td>Genre 4</td>
-        </tr>
-    </table>
+    <div class="table_edit">
+        <table id="formTable">
+            <tr>
+                <th>Selected</th>
+                <th>Category</th>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Release Date</th>
+            </tr>
+            @{
+                foreach (var app in Model)
+                {
 
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td>@app.Category</td>
+                        <td>@app.Title</td>
+                        <td>
+                                @foreach (var y in app.Genres)
+                                {
+								   <div>
+                                   @y
+								   </div>
+                                }
+                        </td>
 
+                        <td>@app.ReleaseDate.ToString("MM-dd-yyyy")</td>
+                    </tr>
 
+                }
+            }
+
+        </table>
+    </div>
 
 </form>

@@ -40,13 +40,13 @@ namespace ReleaseReminder.Models
                 }
 
                 if (reminder.Genres == null || reminder.Genres.Count <= 0) continue;
+
                 for (int j = 0; j < reminder.Genres.Count; j++)
                 {
                     var genre = reminder.Genres[j];
                     if (!genreMap.TryGetValue(genre, out var reminderList))
                     {
-                        reminderList = new List<Reminder>() { reminder };
-                        continue;
+                        reminderList = new List<Reminder>();
                     }
 
                     if (reminderList.Contains(reminder))
@@ -57,7 +57,9 @@ namespace ReleaseReminder.Models
                     {
                         reminderList.Add(reminder);
                     }
+                    genreMap[genre] = reminderList;
                 }
+                reminderMap[reminder.Category] = genreMap;
             }
             return reminderMap;
         }

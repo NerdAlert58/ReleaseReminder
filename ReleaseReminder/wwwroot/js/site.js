@@ -6,19 +6,26 @@
 function mediaSelect(selectObject) {
     var value = selectObject.value;
 
-    if (value == "Movies") {
+	if (value == "Movies") {
 
 		tableFilter("Movies");
-    }
-    else if (value == "Video Games") {
+	}
+	else if (value == "VideoGames") {
 		tableFilter("VideoGames");
-    }
-    else if (value == "Music") {
+	}
+	else if (value == "Music") {
 		tableFilter("music");
-    }
-    else {
-        console.log("The other one.")
-    }
+	}
+	else if (value == "Books") {
+		console.log("The other one.")
+		tableFilter("books");
+	}
+	else if (value == "Television") {
+		tableFilter("television");
+	}
+	else {
+		tableFilter("");
+	}
 }
 
 function tableFilter(filterVar) {

@@ -12509,11 +12509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ReleaseReminder\\ReleaseReminder\\ReleaseReminder.csproj",
+      "projectUniqueName": "C:\\Users\\Warren Sinor\\Desktop\\ReleaseReminder\\ReleaseReminder\\ReleaseReminder.csproj",
       "projectName": "ReleaseReminder",
-      "projectPath": "E:\\ReleaseReminder\\ReleaseReminder\\ReleaseReminder.csproj",
+      "projectPath": "C:\\Users\\Warren Sinor\\Desktop\\ReleaseReminder\\ReleaseReminder\\ReleaseReminder.csproj",
       "packagesPath": "C:\\Users\\Warren Sinor\\.nuget\\packages\\",
-      "outputPath": "E:\\ReleaseReminder\\ReleaseReminder\\obj\\",
+      "outputPath": "C:\\Users\\Warren Sinor\\Desktop\\ReleaseReminder\\ReleaseReminder\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

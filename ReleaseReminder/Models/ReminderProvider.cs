@@ -7,13 +7,12 @@ namespace ReleaseReminder.Models
 {
     public class ReminderProvider : IReminderProvider
     {
-        private string _filePath = null;
+        private string _filePath = "reminders.json";
         private IList<Reminder> _reminders = null;
         private IDictionary<Category, IDictionary<Genre, IList<Reminder>>> _remindersMap = null;
 
-        public ReminderProvider(string path)
+        public ReminderProvider()
         {
-            _filePath = path ?? throw new ArgumentNullException(nameof(_filePath));
             _reminders = ReadFile(_filePath) ?? throw new ArgumentNullException(nameof(_reminders));
             _remindersMap = BuildMap() ?? throw new ArgumentNullException(nameof(_remindersMap));
         }

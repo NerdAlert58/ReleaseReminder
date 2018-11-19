@@ -1,4 +1,8 @@
+using System;
 using System.Collections.Generic;
+using System.Linq;
+using ReleaseReminder.SMTP;
+using ReleaseReminder.SMTP.Service;
 
 namespace ReleaseReminder.Models
 {
@@ -8,10 +12,14 @@ namespace ReleaseReminder.Models
         private IList<Reminder> _reminders = null;
         private IDictionary<Category, IDictionary<Genre, IList<Reminder>>> _remindersMap = null;
         private IDictionary<string, User> _users = null;
-        public ReminderService(IReminderProvider reminderProvider)
+        private IDictionary<string, IList<User>> _usersByTitle = null;
+        private IEmailService _emailService = null;
+        public ReminderService(IReminderProvider reminderProvider, IEmailService emailService)
         {
             _reminderProvider = reminderProvider ?? throw new System.ArgumentNullException(nameof(reminderProvider));
+            _emailService = emailService ?? throw new ArgumentNullException(nameof(emailService));
             _users = new Dictionary<string, User>();
+            _usersByTitle = new Dictionary<string, IList<User>>();
             _reminders = _reminderProvider.Reminders();
             _remindersMap = _reminderProvider.RemindersMap();
         }
@@ -28,6 +36,14 @@ namespace ReleaseReminder.Models
                 if (!matched.Reminders.Contains(reminder))
                 {
                     matched.Reminders.Add(reminder);
+                    if (!_usersByTitle.TryGetValue(reminder.Title, out var users))
+                    {
+                        users = new List<User>();
+                    }
+                    if (!users.Contains(user))
+                    {
+                        users.Add(user);
+                    }
                 }
             }
         }
@@ -45,19 +61,69 @@ namespace ReleaseReminder.Models
             return _reminders;
         }
 
+        public IDictionary<Category, IDictionary<Genre, IList<Reminder>>> GetRemindersMap()
+        {
+            return _remindersMap;
+        }
+
         public void InsertUser(User user)
         {
+            // Verify User fields exist and aren't empty
+
+            // Verify that the user isn't already in the set
+
+            // Add the User to the set
             throw new System.NotImplementedException();
         }
 
         public User RetrieveUser(string name)
         {
-            throw new System.NotImplementedException();
+            if (_users.TryGetValue(name, out var user))
+            {
+                return user;
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public void SendNotification()
         {
-            throw new System.NotImplementedException();
+            var notifications = CheckTodayForReleases();
+            foreach (var reminder in notifications.Keys)
+            {
+                var users = notifications[reminder];
+                for (int i = 0; i < users.Count; i++)
+                {
+                    var user = users[i];
+                    var email = new EmailMessage()
+                    {
+                        ToAddresses = new List<EmailAddress>() { new EmailAddress() { Name = user.Username, Address = user.Email } },
+                        FromAddresses = new List<EmailAddress>() { new EmailAddress() { Name = "ReleaseReminder", Address = "releasereminder2018.com" } },
+                        Subject = $"Reminder!! {reminder} was released today!",
+                        Content = $"Hey {user.Username}, It's time to go!  This is you notification that {reminder} comes out today!  Enjoy!"
+                    };
+                    _emailService.Send(email);
+                }
+            }
+        }
+
+        private IDictionary<string, IList<User>> CheckTodayForReleases()
+        {
+            var date = DateTime.Now;
+            List<Reminder> reminders = _reminders.Where(reminder => reminder.ReleaseDate.Date == date.Date).ToList();
+            var notifications = new Dictionary<string, IList<User>>();
+            for (int i = 0; i < reminders.Count; i++)
+            {
+                var reminder = reminders[i];
+                if (_usersByTitle.TryGetValue(reminder.Title, out var users))
+                {
+                    notifications[reminder.Title] = users;
+                }
+            }
+
+            return notifications;
         }
     }
 }

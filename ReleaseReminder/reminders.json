@@ -1,1773 +1,1925 @@
 {
-  "reminders": [
-    {
-      "title": "Sarkar",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Action",
-        "Suspence"
-      ],
-      "releaseDate": "06 November 2018"
-    },
-    {
-      "title": "Thugs of Hindostan",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "releaseDate": "08 November 2018"
-    },
-    {
-      "title": "Overlord",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Action",
-        "Thriller",
-        "ScienceFiction",
-        "War",
-        "Mystery"
-      ],
-      "releaseDate": "09 November 2018"
-    },
-    {
-      "title": "The Girl in the Spider's Web: A New Dragon Tattoo Story",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseDate": "09 November 2018"
-    },
-    {
-      "title": "The Grinch",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "09 November 2018"
-    },
-    {
-      "title": "Burning",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Mystery"
-      ],
-      "releaseDate": "09 November 2018"
-    },
-    {
-      "title": "Time Freak",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "ScienceFiction",
-        "Fantasy",
-        "Romance"
-      ],
-      "releaseDate": "09 November 2018"
-    },
-    {
-      "title": "El Angel",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Biography"
-      ],
-      "releaseDate": "09 November 2018"
-    },
-    {
-      "title": "The New Romantic",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Romance",
-        "Drama"
-      ],
-      "releaseDate": "09 November 2018"
-    },
-    {
-      "title": "South Wind",
-      "category": "Movies",
-      "genres": [
-        "Thriller",
-        "Crime"
-      ],
-      "releaseDate": "15 November 2018"
-    },
-    {
-      "title": "Fantastic Beasts: The Crimes of Grindelwald",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Kids",
-        "Family",
-        "ScienceFiction",
-        "Fantasy"
-      ],
-      "releaseDate": "16 November 2018"
-    },
-    {
-      "title": "Widows",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Crime",
-        "Romance",
-        "Thriller"
-      ],
-      "releaseDate": "16 November 2018"
-    },
-    {
-      "title": "Instant Family",
-      "category": "Movies",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseDate": "16 November 2018"
-    },
-    {
-      "title": "A Private War",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "War",
-        "Biography"
-      ],
-      "releaseDate": "16 November 2018"
-    },
-    {
-      "title": "At Eternity's Gate",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Biography"
-      ],
-      "releaseDate": "16 November 2018"
-    },
-    {
-      "title": "Creed II",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama",
-        "Sport"
-      ],
-      "releaseDate": "21 November 2018"
-    },
-    {
-      "title": "Robin Hood",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Drama"
-      ],
-      "releaseDate": "21 November 2018"
-    },
-    {
-      "title": "Ralph Breaks the Internet",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Kids",
-        "Family",
-        "ScienceFiction",
-        "Fantasy"
-      ],
-      "releaseDate": "21 November 2018"
-    },
-    {
-      "title": "Green Book",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Biography",
-        "Comedy"
-      ],
-      "releaseDate": "21 November 2018"
-    },
-    {
-      "title": "The Front Runner",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Biography"
-      ],
-      "releaseDate": "21 November 2018"
-    },
-    {
-      "title": "The Christmas Chronicles",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "22 November 2018"
-    },
-    {
-      "title": "The Favourite",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "23 November 2018"
-    },
-    {
-      "title": "Shoplifters",
-      "category": "Movies",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseDate": "23 November 2018"
-    },
-    {
-      "title": "The Possession of Hannah Grace",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Suspence"
-      ],
-      "releaseDate": "30 November 2018"
-    },
-    {
-      "title": "If Beale Street Could Talk",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "releaseDate": "30 November 2018"
-    },
-    {
-      "title": "Happy as Lazzaro",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "30 November 2018"
-    },
-    {
-      "title": "The Griddle House",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "03 December 2018"
-    },
-    {
-      "title": "Vox Lux",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Musical"
-      ],
-      "releaseDate": "07 December 2018"
-    },
-    {
-      "title": "Mary Queen of Scots",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "History",
-        "Biography"
-      ],
-      "releaseDate": "07 December 2018"
-    },
-    {
-      "title": "Ben Is Back",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "07 December 2018"
-    },
-    {
-      "title": "Dumplin'",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Drama",
-        "Musical"
-      ],
-      "releaseDate": "07 December 2018"
-    },
-    {
-      "title": "The Silence",
-      "category": "Movies",
-      "genres": [
-        "Horror"
-      ],
-      "releaseDate": "07 December 2018"
-    },
-    {
-      "title": "Spider-Man: Into the Spider-Verse",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Animation",
-        "Kids",
-        "Family",
-        "ScienceFiction",
-        "Fantasy"
-      ],
-      "releaseDate": "14 December 2018"
-    },
-    {
-      "title": "The Mule",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "Thriller",
-        "Crime"
-      ],
-      "releaseDate": "14 December 2018"
-    },
-    {
-      "title": "Roma",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "14 December 2018"
-    },
-    {
-      "title": "Mortal Engines",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "ScienceFiction",
-        "Fantasy"
-      ],
-      "releaseDate": "14 December 2018"
-    },
-    {
-      "title": "Capernaum",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "14 December 2018"
-    },
-    {
-      "title": "Mary Poppins Returns",
-      "category": "Movies",
-      "genres": [
-        "Family",
-        "Musical",
-        "Fantasy"
-      ],
-      "releaseDate": "19 December 2018"
-    },
-    {
-      "title": "Aquaman",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "ScienceFiction",
-        "Fantasy"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Cold War",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Bumblebee",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "ScienceFiction",
-        "Fantasy"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Zero",
-      "category": "Movies",
-      "genres": [
-        "Romance",
-        "Drama",
-        "ScienceFiction"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Holmes & Watson",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Mystery",
-        "Crime"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Welcome to Marwen",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Comedy",
-        "Biography",
-        "Fantasy"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Second Act",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Vice",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Biography",
-        "History"
-      ],
-      "releaseDate": "25 December 2018"
-    },
-    {
-      "title": "Destroyer",
-      "category": "Movies",
-      "genres": [
-        "Mystery",
-        "Action",
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseDate": "25 December 2018"
-    },
-    {
-      "title": "On the Basis of Sex",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Biography"
-      ],
-      "releaseDate": "25 December 2018"
-    },
-    {
-      "title": "Escape Room",
-      "category": "Movies",
-      "genres": [
-        "ScienceFiction",
-        "Thriller"
-      ],
-      "releaseDate": "04 January 2019"
-    },
-    {
-      "title": "Animal Crackers",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "04 January 2019"
-    },
-    {
-      "title": "Replicas",
-      "category": "Movies",
-      "genres": [
-        "Mystery",
-        "Crime",
-        "ScienceFiction",
-        "Thriller"
-      ],
-      "releaseDate": "11 January 2019"
-    },
-    {
-      "title": "The Upside",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseDate": "11 January 2019"
-    },
-    {
-      "title": "Ashes in the Snow",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "releaseDate": "11 January 2019"
-    },
-    {
-      "title": "A Dog's Way Home",
-      "category": "Movies",
-      "genres": [
-        "Adventure",
-        "Family"
-      ],
-      "releaseDate": "11 January 2019"
-    },
-    {
-      "title": "Dragon Ball Super: Broly",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Animation",
-        "Fantasy"
-      ],
-      "releaseDate": "16 January 2019"
-    },
-    {
-      "title": "Glass",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Mystery",
-        "ScienceFiction",
-        "Thriller"
-      ],
-      "releaseDate": "18 January 2019"
-    },
-    {
-      "title": "Girl",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "18 January 2019"
-    },
-    {
-      "title": "Serenity",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseDate": "25 January 2019"
-    },
-    {
-      "title": "The Wild Pear Tree",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "30 January 2019"
-    },
-    {
-      "title": "Miss Bala",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseDate": "01 February 2019"
-    },
-    {
-      "title": "Cold Pursuit",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseDate": "08 February 2019"
-    },
-    {
-      "title": "The Prodigy",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseDate": "08 February 2019"
-    },
-    {
-      "title": "The Lego Movie 2: The Second Part",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Fantasy",
-        "Musical"
-      ],
-      "releaseDate": "08 February 2019"
-    },
-    {
-      "title": "What Men Want",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Fantasy",
-        "Romance"
-      ],
-      "releaseDate": "08 February 2019"
-    },
-    {
-      "title": "Everybody Knows",
-      "category": "Movies",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseDate": "08 February 2019"
-    },
-    {
-      "title": "Isn't It Romantic",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Romance"
-      ],
-      "releaseDate": "14 February 2019"
-    },
-    {
-      "title": "Alita: Battle Angel",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Romance",
-        "ScienceFiction",
-        "Thriller"
-      ],
-      "releaseDate": "14 February 2019"
-    },
-    {
-      "title": "Happy Death Day 2U",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseDate": "14 February 2019"
-    },
-    {
-      "title": "How to Train Your Dragon: The Hidden World",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "22 February 2019"
-    },
-    {
-      "title": "All-Star Weekend",
-      "category": "Movies",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseDate": "22 February 2019"
-    },
-    {
-      "title": "Tyler Perry's a Madea Family Funeral",
-      "category": "Movies",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseDate": "01 March 2019"
-    },
-    {
-      "title": "Chaos Walking",
-      "category": "Movies",
-      "genres": [
-        "ScienceFiction"
-      ],
-      "releaseDate": "01 March 2019"
-    },
-    {
-      "title": "The Kid Who Would Be King",
-      "category": "Movies",
-      "genres": [
-        "Adventure",
-        "Fantasy"
-      ],
-      "releaseDate": "01 March 2019"
-    },
-    {
-      "title": "Fighting with My Family",
-      "category": "Movies",
-      "genres": [
-        "Biography",
-        "Comedy",
-        "Drama"
-      ],
-      "releaseDate": "01 March 2019"
-    },
-    {
-      "title": "Captain Marvel",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "ScienceFiction"
-      ],
-      "releaseDate": "08 March 2019"
-    },
-    {
-      "title": "Us",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseDate": "15 March 2019"
-    },
-    {
-      "title": "Wonder Park",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "15 March 2019"
-    },
-    {
-      "title": "Five Feet Apart",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "releaseDate": "22 March 2019"
-    },
-    {
-      "title": "The Beach Bum",
-      "category": "Movies",
-      "genres": [
-        "Comedy"
-      ],
-      "releaseDate": "22 March 2019"
-    },
-    {
-      "title": "Three Seconds",
-      "category": "Movies",
-      "genres": [
-        "Crime",
-        "Drama"
-      ],
-      "releaseDate": "22 March 2019"
-    },
-    {
-      "title": "Dumbo",
-      "category": "Movies",
-      "genres": [
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "29 March 2019"
-    },
-    {
-      "title": "Captive State",
-      "category": "Movies",
-      "genres": [
-        "ScienceFiction",
-        "Thriller"
-      ],
-      "releaseDate": "29 March 2019"
-    },
-    {
-      "title": "Pet Sematary",
-      "category": "Movies",
-      "genres": [
-        "Horror"
-      ],
-      "releaseDate": "05 April 2019"
-    },
-    {
-      "title": "Shazam!",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "ScienceFiction"
-      ],
-      "releaseDate": "05 April 2019"
-    },
-    {
-      "title": "Peterloo",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "History"
-      ],
-      "releaseDate": "05 April 2019"
-    },
-    {
-      "title": "The Best of Enemies",
-      "category": "Movies",
-      "genres": [
-        "Biography",
-        "Drama",
-        "History"
-      ],
-      "releaseDate": "05 April 2019"
-    },
-    {
-      "title": "Hellboy",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "ScienceFiction"
-      ],
-      "releaseDate": "12 April 2019"
-    },
-    {
-      "title": "After",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Romance",
-        "Thriller"
-      ],
-      "releaseDate": "12 April 2019"
-    },
-    {
-      "title": "Under the Silver Lake",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseDate": "19 April 2019"
-    },
-    {
-      "title": "The Curse of La Llorona",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseDate": "19 April 2019"
-    },
-    {
-      "title": "The Aftermath",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Romance",
-        "War"
-      ],
-      "releaseDate": "26 April 2019"
-    },
-    {
-      "title": "Untitled Avengers Movie",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "ScienceFiction"
-      ],
-      "releaseDate": "03 May 2019"
-    },
-    {
-      "title": "Pokémon Detective Pikachu",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Family",
-        "Fantasy",
-        "Mystery",
-        "ScienceFiction"
-      ],
-      "releaseDate": "10 May 2019"
-    },
-    {
-      "title": "John Wick: Chapter 3",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Crime",
-        "Thriller"
-      ],
-      "releaseDate": "17 May 2019"
-    },
-    {
-      "title": "Rocketman",
-      "category": "Movies",
-      "genres": [
-        "Biography",
-        "Drama",
-        "Fantasy"
-      ],
-      "releaseDate": "17 May 2019"
-    },
-    {
-      "title": "Doom",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Horror",
-        "ScienceFiction"
-      ],
-      "releaseDate": "17 May 2019"
-    },
-    {
-      "title": "Aladdin",
-      "category": "Movies",
-      "genres": [
-        "Adventure",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "24 May 2019"
-    },
-    {
-      "title": "Ad Astra",
-      "category": "Movies",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Mystery"
-      ],
-      "releaseDate": "24 May 2019"
-    },
-    {
-      "title": "Godzilla: King of the Monsters",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Horror",
-        "ScienceFiction"
-      ],
-      "releaseDate": "31 May 2019"
-    },
-    {
-      "title": "Dark Phoenix",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "ScienceFiction"
-      ],
-      "releaseDate": "07 June 2019"
-    },
-    {
-      "title": "Untitled Men in Black Spin-Off",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Comedy",
-        "ScienceFiction"
-      ],
-      "releaseDate": "14 June 2019"
-    },
-    {
-      "title": "Shaft",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Crime"
-      ],
-      "releaseDate": "14 June 2019"
-    },
-    {
-      "title": "Toy Story 4",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Adventure",
-        "Comedy",
-        "Family",
-        "Fantasy"
-      ],
-      "releaseDate": "21 June 2019"
-    },
-    {
-      "title": "Ford v. Ferrari",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Biography",
-        "Drama"
-      ],
-      "releaseDate": "28 June 2019"
-    },
-    {
-      "title": "Untitled Annabelle Film",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseDate": "03 July 2019"
-    },
-    {
-      "title": "Spider-Man: Far From Home",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy",
-        "ScienceFiction"
-      ],
-      "releaseDate": "05 July 2019"
-    },
-    {
-      "title": "17 Bridges",
-      "category": "Movies",
-      "genres": [
-        "Drama",
-        "Thriller"
-      ],
-      "releaseDate": "12 July 2019"
-    },
-    {
-      "title": "The Lion King",
-      "category": "Movies",
-      "genres": [
-        "Adventure",
-        "Drama",
-        "Family",
-        "Musical"
-      ],
-      "releaseDate": "19 July 2019"
-    },
-    {
-      "title": "Once Upon a Time in Hollywood",
-      "category": "Movies",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseDate": "26 July 2019"
-    },
-    {
-      "title": "Hobbs and Shaw",
-      "category": "Movies",
-      "genres": [
-        "Action"
-      ],
-      "releaseDate": "02 August 2019"
-    },
-    {
-      "title": "Dora the Explorer",
-      "category": "Movies",
-      "genres": [
-        "Adventure",
-        "Family"
-      ],
-      "releaseDate": "02 August 2019"
-    },
-    {
-      "title": "The New Mutants",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Horror",
-        "ScienceFiction"
-      ],
-      "releaseDate": "02 August 2019"
-    },
-    {
-      "title": "Artemis Fowl",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Fantasy",
-        "Family"
-      ],
-      "releaseDate": "09 August 2019"
-    },
-    {
-      "title": "It: Chapter Two",
-      "category": "Movies",
-      "genres": [
-        "Horror",
-        "Thriller"
-      ],
-      "releaseDate": "06 September 2019"
-    },
-    {
-      "title": "Spies in Disguise",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Action",
-        "Adventure",
-        "Comedy",
-        "Fantasy",
-        "ScienceFiction"
-      ],
-      "releaseDate": "13 September 2019"
-    },
-    {
-      "title": "The Kitchen",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Crime",
-        "Drama",
-        "ScienceFiction"
-      ],
-      "releaseDate": "20 September 2019"
-    },
-    {
-      "title": "Joker",
-      "category": "Movies",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseDate": "04 October 2019"
-    },
-    {
-      "title": "Gemini Man",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Drama",
-        "ScienceFiction"
-      ],
-      "releaseDate": "04 October 2019"
-    },
-    {
-      "title": "The Woman in the Window",
-      "category": "Movies",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Mystery",
-        "Thriller"
-      ],
-      "releaseDate": "04 October 2019"
-    },
-    {
-      "title": "Zombieland 2",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Comedy",
-        "Horror"
-      ],
-      "releaseDate": "11 October 2019"
-    },
-    {
-      "title": "The Goldfinch",
-      "category": "Movies",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "11 October 2019"
-    },
-    {
-      "title": "The Addams Family",
-      "category": "Movies",
-      "genres": [
-        "Animation",
-        "Comedy",
-        "Family",
-        "Fantasy",
-        "Horror"
-      ],
-      "releaseDate": "18 October 2019"
-    },
-    {
-      "title": "Untitled Mr. Rogers/Tom Hanks Project",
-      "category": "Movies",
-      "genres": [
-        "Biography",
-        "Drama"
-      ],
-      "releaseDate": "18 October 2019"
-    },
-    {
-      "title": "Untitled Terminator Reboot",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "ScienceFiction"
-      ],
-      "releaseDate": "01 November 2019"
-    },
-    {
-      "title": "Charlie's Angels",
-      "category": "Movies",
-      "genres": [
-        "Action",
-        "Adventure",
-        "Comedy"
-      ],
-      "releaseDate": "01 November 2019"
-    },
-    {
-      "title": "Kingdom Hearts 3",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "MMORPG"
-      ],
-      "releaseDate": "January 25, 2019"
-    },
-    {
-      "title": "Resident Evil 2 Remake",
-      "category": "VideoGames",
-      "genres": [
-        "Horror",
-        "FPS"
-      ],
-      "releaseDate": "January 25, 2019"
-    },
-    {
-      "title": "Trials Rising",
-      "category": "VideoGames",
-      "genres": [
-        "Racing"
-      ],
-      "releaseDate": "February 28, 2019"
-    },
-    {
-      "title": "Metro: Exodus",
-      "category": "VideoGames",
-      "genres": [
-        "FPS"
-      ],
-      "releaseDate": "February 22, 2019"
-    },
-    {
-      "title": "Crackdown 3",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "February 22, 2019"
-    },
-    {
-      "title": "Anthem",
-      "category": "VideoGames",
-      "genres": [
-        "MMORPG"
-      ],
-      "releaseDate": "February 22, 2019"
-    },
-    {
-      "title": "Devil May Cry 5",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "March 8, 2019"
-    },
-    {
-      "title": "The Division 2",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "RPG"
-      ],
-      "releaseDate": "March 15, 2019"
-    },
-    {
-      "title": "Sekiro: Shadows Die Twice",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "March 22, 2019"
-    },
-    {
-      "title": "Days Gone",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "April 26, 2019"
-    },
-    {
-      "title": "Shenmue 3",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "August 29, 2019"
-    },
-    {
-      "title": "Ori And The Will Of The Wisps",
-      "category": "VideoGames",
-      "genres": [
-        "Adventure"
-      ],
-      "releaseDate": "May 15, 2019"
-    },
-    {
-      "title": "Rage 2",
-      "category": "VideoGames",
-      "genres": [
-        "FPS"
-      ],
-      "releaseDate": "May 15, 2019"
-    },
-    {
-      "title": "Concrete Genie",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "May 15, 2019"
-    },
-    {
-      "title": "Star Wars: Jedi Fallen Order",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Gears 5",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "FPS"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Medievil",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Jump Force",
-      "category": "VideoGames",
-      "genres": [
-        "Fighting"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Skull & Bones",
-      "category": "VideoGames",
-      "genres": [
-        "Action"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Code Vein",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "RPG"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Babylon’s Fall",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure",
-        "MMORPG"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Doom Eternal",
-      "category": "VideoGames",
-      "genres": [
-        "Horror",
-        "FPS"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Ghost Of Tsushima",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "The Last Of Us: Part II",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Halo Infinite",
-      "category": "VideoGames",
-      "genres": [
-        "FPS"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Death Stranding",
-      "category": "VideoGames",
-      "genres": [
-        "Action"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Bayonetta 3",
-      "category": "VideoGames",
-      "genres": [
-        "Action"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Metroid Prime 4",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "The Elder Scrolls VI",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Starfield",
-      "category": "VideoGames",
-      "genres": [
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "December 25, 2019"
-    },
-    {
-      "title": "Vikings",
-      "category": "Television",
-      "genres": [
-        "Drama",
-        "Action",
-        "Adventure"
-      ],
-      "releaseDate": "28 November 2018"
-    },
-    {
-      "title": "Nightflyers",
-      "category": "Television",
-      "genres": [
-        "ScienceFiction",
-        "Horror"
-      ],
-      "releaseDate": "02 December 2018"
-    },
-    {
-      "title": "Botched",
-      "category": "Television",
-      "genres": [
-        "Reality"
-      ],
-      "releaseDate": "06 December 2018"
-    },
-    {
-      "title": "Counterpart",
-      "category": "Television",
-      "genres": [
-        "ScienceFiction",
-        "Thriller"
-      ],
-      "releaseDate": "09 December 2018"
-    },
-    {
-      "title": "Marvel's Runaways",
-      "category": "Television",
-      "genres": [
-        "Adventure",
-        "Superhero",
-        "Teen",
-        "Drama"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "The Passage",
-      "category": "Television",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "14 January 2019"
-    },
-    {
-      "title": "Deadly Class",
-      "category": "Television",
-      "genres": [
-        "Action",
-        "Drama",
-        "Thriller"
-      ],
-      "releaseDate": "16 January 2019"
-    },
-    {
-      "title": "A Discover of Witches",
-      "category": "Television",
-      "genres": [
-        "Fantasy",
-        "Romance",
-        "Drama"
-      ],
-      "releaseDate": "17 January 2019"
-    },
-    {
-      "title": "Good Trouble",
-      "category": "Television",
-      "genres": [
-        "Family",
-        "Drama"
-      ],
-      "releaseDate": "08 January 2019"
-    },
-    {
-      "title": "The Masked Singer",
-      "category": "Television",
-      "genres": [
-        "Reality"
-      ],
-      "releaseDate": "02 January 2019"
-    },
-    {
-      "title": "The Marvelous Mrs. Maisel",
-      "category": "Television",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "releaseDate": "05 December 2018"
-    },
-    {
-      "title": "Berlin Station",
-      "category": "Television",
-      "genres": [
-        "Drama"
-      ],
-      "releaseDate": "03 December 2018"
-    },
-    {
-      "title": "The Profit",
-      "category": "Television",
-      "genres": [
-        "Reality"
-      ],
-      "releaseDate": "04 December 2018"
-    },
-    {
-      "title": "Tidelands",
-      "category": "Television",
-      "genres": [
-        "Fantasy",
-        "Crime",
-        "Drama"
-      ],
-      "releaseDate": "14 December 2018"
-    },
-    {
-      "title": "Tales of Arcadia",
-      "category": "Television",
-      "genres": [
-        "Animation",
-        "ScienceFiction",
-        "Fantasy"
-      ],
-      "releaseDate": "21 December 2018"
-    },
-    {
-      "title": "Meghan Trainor: Treat Myself",
-      "category": "Music",
-      "genres": [
-        "Pop"
-      ],
-      "releaseDate": "25 January 2019"
-    },
-    {
-      "title": "Taylor Swift: Red",
-      "category": "Music",
-      "genres": [
-        "Pop"
-      ],
-      "releaseDate": "23 November 2018"
-    },
-    {
-      "title": "Mariah Carey: Caution",
-      "category": "Music",
-      "genres": [
-        "Pop"
-      ],
-      "releaseDate": "19 November 2018"
-    },
-    {
-      "title": "Rita Ora: Pheonix",
-      "category": "Music",
-      "genres": [
-        "Pop"
-      ],
-      "releaseDate": "23 November 2018"
-    },
-    {
-      "title": "Alessia Cara: The Pains of Growing",
-      "category": "Music",
-      "genres": [
-        "Pop"
-      ],
-      "releaseDate": "30 November 2018"
-    },
-    {
-      "title": "Anderson East: Encore",
-      "category": "Music",
-      "genres": [
-        "Country"
-      ],
-      "releaseDate": "12 January 2019"
-    },
-    {
-      "title": "Montgomery Gentry: Here's to You",
-      "category": "Music",
-      "genres": [
-        "Country"
-      ],
-      "releaseDate": "2 February 2019"
-    },
-    {
-      "title": "Ashley McBryde: Girl Going Nowhere",
-      "category": "Music",
-      "genres": [
-        "Country"
-      ],
-      "releaseDate": "30 March 2019"
-    },
-    {
-      "title": "Johnny Cash: Forever Words",
-      "category": "Music",
-      "genres": [
-        "Country"
-      ],
-      "releaseDate": "6 April 2019"
-    },
-    {
-      "title": "Keith Urban: Graffiti U",
-      "category": "Music",
-      "genres": [
-        "Country"
-      ],
-      "releaseDate": "27 April 2019"
-    },
-    {
-      "title": "Kanye West: Yandhi",
-      "category": "Music",
-      "genres": [
-        "Rap"
-      ],
-      "releaseDate": "23 November 2018"
-    },
-    {
-      "title": "21 Savage: TBA",
-      "category": "Music",
-      "genres": [
-        "Rap"
-      ],
-      "releaseDate": "7 December 2018"
-    },
-    {
-      "title": "Gucci Mane: Evil Genis",
-      "category": "Music",
-      "genres": [
-        "Rap"
-      ],
-      "releaseDate": "7 December 2018"
-    },
-    {
-      "title": "XXXTentacion: Skins",
-      "category": "Music",
-      "genres": [
-        "Rap"
-      ],
-      "releaseDate": "7 December 2018"
-    },
-    {
-      "title": "Method Man: The Meth Lab 2",
-      "category": "Music",
-      "genres": [
-        "Rap"
-      ],
-      "releaseDate": "11 December 2018"
-    }
-  ]
+    "reminders": [
+        {
+            "title": "Sarkar",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Mystery",
+                "Action",
+                "Suspence"
+            ],
+            "releaseDate": "06 November 2018"
+        },
+        {
+            "title": "Thugs of Hindostan",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama"
+            ],
+            "releaseDate": "08 November 2018"
+        },
+        {
+            "title": "Overlord",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Action",
+                "Thriller",
+                "ScienceFiction",
+                "War",
+                "Mystery"
+            ],
+            "releaseDate": "09 November 2018"
+        },
+        {
+            "title": "The Girl in the Spider's Web: A New Dragon Tattoo Story",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Crime",
+                "Thriller"
+            ],
+            "releaseDate": "09 November 2018"
+        },
+        {
+            "title": "The Grinch",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "09 November 2018"
+        },
+        {
+            "title": "Burning",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Mystery"
+            ],
+            "releaseDate": "09 November 2018"
+        },
+        {
+            "title": "Time Freak",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "ScienceFiction",
+                "Fantasy",
+                "Romance"
+            ],
+            "releaseDate": "09 November 2018"
+        },
+        {
+            "title": "El Angel",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Crime",
+                "Biography"
+            ],
+            "releaseDate": "09 November 2018"
+        },
+        {
+            "title": "The New Romantic",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Romance",
+                "Drama"
+            ],
+            "releaseDate": "09 November 2018"
+        },
+        {
+            "title": "South Wind",
+            "category": "Movies",
+            "genres": [
+                "Thriller",
+                "Crime"
+            ],
+            "releaseDate": "15 November 2018"
+        },
+        {
+            "title": "Fantastic Beasts: The Crimes of Grindelwald",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Kids",
+                "Family",
+                "ScienceFiction",
+                "Fantasy"
+            ],
+            "releaseDate": "16 November 2018"
+        },
+        {
+            "title": "Widows",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Crime",
+                "Romance",
+                "Thriller"
+            ],
+            "releaseDate": "16 November 2018"
+        },
+        {
+            "title": "Instant Family",
+            "category": "Movies",
+            "genres": [
+                "Comedy"
+            ],
+            "releaseDate": "16 November 2018"
+        },
+        {
+            "title": "A Private War",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "War",
+                "Biography"
+            ],
+            "releaseDate": "16 November 2018"
+        },
+        {
+            "title": "At Eternity's Gate",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Biography"
+            ],
+            "releaseDate": "16 November 2018"
+        },
+        {
+            "title": "Creed II",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama",
+                "Sport"
+            ],
+            "releaseDate": "21 November 2018"
+        },
+        {
+            "title": "Robin Hood",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Drama"
+            ],
+            "releaseDate": "21 November 2018"
+        },
+        {
+            "title": "Ralph Breaks the Internet",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Comedy",
+                "Kids",
+                "Family",
+                "ScienceFiction",
+                "Fantasy"
+            ],
+            "releaseDate": "21 November 2018"
+        },
+        {
+            "title": "Green Book",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Biography",
+                "Comedy"
+            ],
+            "releaseDate": "21 November 2018"
+        },
+        {
+            "title": "The Front Runner",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Biography"
+            ],
+            "releaseDate": "21 November 2018"
+        },
+        {
+            "title": "The Christmas Chronicles",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "22 November 2018"
+        },
+        {
+            "title": "The Favourite",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "23 November 2018"
+        },
+        {
+            "title": "Shoplifters",
+            "category": "Movies",
+            "genres": [
+                "Crime",
+                "Drama"
+            ],
+            "releaseDate": "23 November 2018"
+        },
+        {
+            "title": "The Possession of Hannah Grace",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Mystery",
+                "Suspence"
+            ],
+            "releaseDate": "30 November 2018"
+        },
+        {
+            "title": "If Beale Street Could Talk",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Romance"
+            ],
+            "releaseDate": "30 November 2018"
+        },
+        {
+            "title": "Happy as Lazzaro",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "30 November 2018"
+        },
+        {
+            "title": "The Griddle House",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "03 December 2018"
+        },
+        {
+            "title": "Vox Lux",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Musical"
+            ],
+            "releaseDate": "07 December 2018"
+        },
+        {
+            "title": "Mary Queen of Scots",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "History",
+                "Biography"
+            ],
+            "releaseDate": "07 December 2018"
+        },
+        {
+            "title": "Ben Is Back",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "07 December 2018"
+        },
+        {
+            "title": "Dumplin'",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Drama",
+                "Musical"
+            ],
+            "releaseDate": "07 December 2018"
+        },
+        {
+            "title": "The Silence",
+            "category": "Movies",
+            "genres": [
+                "Horror"
+            ],
+            "releaseDate": "07 December 2018"
+        },
+        {
+            "title": "Spider-Man: Into the Spider-Verse",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Animation",
+                "Kids",
+                "Family",
+                "ScienceFiction",
+                "Fantasy"
+            ],
+            "releaseDate": "14 December 2018"
+        },
+        {
+            "title": "The Mule",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Mystery",
+                "Thriller",
+                "Crime"
+            ],
+            "releaseDate": "14 December 2018"
+        },
+        {
+            "title": "Roma",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "14 December 2018"
+        },
+        {
+            "title": "Mortal Engines",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "ScienceFiction",
+                "Fantasy"
+            ],
+            "releaseDate": "14 December 2018"
+        },
+        {
+            "title": "Capernaum",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "14 December 2018"
+        },
+        {
+            "title": "Mary Poppins Returns",
+            "category": "Movies",
+            "genres": [
+                "Family",
+                "Musical",
+                "Fantasy"
+            ],
+            "releaseDate": "19 December 2018"
+        },
+        {
+            "title": "Aquaman",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "ScienceFiction",
+                "Fantasy"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Cold War",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Romance"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Bumblebee",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "ScienceFiction",
+                "Fantasy"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Zero",
+            "category": "Movies",
+            "genres": [
+                "Romance",
+                "Drama",
+                "ScienceFiction"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Holmes & Watson",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Mystery",
+                "Crime"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Welcome to Marwen",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Comedy",
+                "Biography",
+                "Fantasy"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Second Act",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Romance"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Vice",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Biography",
+                "History"
+            ],
+            "releaseDate": "25 December 2018"
+        },
+        {
+            "title": "Destroyer",
+            "category": "Movies",
+            "genres": [
+                "Mystery",
+                "Action",
+                "Crime",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "25 December 2018"
+        },
+        {
+            "title": "On the Basis of Sex",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Biography"
+            ],
+            "releaseDate": "25 December 2018"
+        },
+        {
+            "title": "Escape Room",
+            "category": "Movies",
+            "genres": [
+                "ScienceFiction",
+                "Thriller"
+            ],
+            "releaseDate": "04 January 2019"
+        },
+        {
+            "title": "Animal Crackers",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Adventure",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "04 January 2019"
+        },
+        {
+            "title": "Replicas",
+            "category": "Movies",
+            "genres": [
+                "Mystery",
+                "Crime",
+                "ScienceFiction",
+                "Thriller"
+            ],
+            "releaseDate": "11 January 2019"
+        },
+        {
+            "title": "The Upside",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Drama"
+            ],
+            "releaseDate": "11 January 2019"
+        },
+        {
+            "title": "Ashes in the Snow",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Romance"
+            ],
+            "releaseDate": "11 January 2019"
+        },
+        {
+            "title": "A Dog's Way Home",
+            "category": "Movies",
+            "genres": [
+                "Adventure",
+                "Family"
+            ],
+            "releaseDate": "11 January 2019"
+        },
+        {
+            "title": "Dragon Ball Super: Broly",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Animation",
+                "Fantasy"
+            ],
+            "releaseDate": "16 January 2019"
+        },
+        {
+            "title": "Glass",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Mystery",
+                "ScienceFiction",
+                "Thriller"
+            ],
+            "releaseDate": "18 January 2019"
+        },
+        {
+            "title": "Girl",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "18 January 2019"
+        },
+        {
+            "title": "Serenity",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "25 January 2019"
+        },
+        {
+            "title": "The Wild Pear Tree",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "30 January 2019"
+        },
+        {
+            "title": "Miss Bala",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "01 February 2019"
+        },
+        {
+            "title": "Cold Pursuit",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "08 February 2019"
+        },
+        {
+            "title": "The Prodigy",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Thriller"
+            ],
+            "releaseDate": "08 February 2019"
+        },
+        {
+            "title": "The Lego Movie 2: The Second Part",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Family",
+                "Fantasy",
+                "Musical"
+            ],
+            "releaseDate": "08 February 2019"
+        },
+        {
+            "title": "What Men Want",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Fantasy",
+                "Romance"
+            ],
+            "releaseDate": "08 February 2019"
+        },
+        {
+            "title": "Everybody Knows",
+            "category": "Movies",
+            "genres": [
+                "Crime",
+                "Drama",
+                "Mystery",
+                "Thriller"
+            ],
+            "releaseDate": "08 February 2019"
+        },
+        {
+            "title": "Isn't It Romantic",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Romance"
+            ],
+            "releaseDate": "14 February 2019"
+        },
+        {
+            "title": "Alita: Battle Angel",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Romance",
+                "ScienceFiction",
+                "Thriller"
+            ],
+            "releaseDate": "14 February 2019"
+        },
+        {
+            "title": "Happy Death Day 2U",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Mystery",
+                "Thriller"
+            ],
+            "releaseDate": "14 February 2019"
+        },
+        {
+            "title": "How to Train Your Dragon: The Hidden World",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "22 February 2019"
+        },
+        {
+            "title": "All-Star Weekend",
+            "category": "Movies",
+            "genres": [
+                "Comedy"
+            ],
+            "releaseDate": "22 February 2019"
+        },
+        {
+            "title": "Tyler Perry's a Madea Family Funeral",
+            "category": "Movies",
+            "genres": [
+                "Comedy"
+            ],
+            "releaseDate": "01 March 2019"
+        },
+        {
+            "title": "Chaos Walking",
+            "category": "Movies",
+            "genres": [
+                "ScienceFiction"
+            ],
+            "releaseDate": "01 March 2019"
+        },
+        {
+            "title": "The Kid Who Would Be King",
+            "category": "Movies",
+            "genres": [
+                "Adventure",
+                "Fantasy"
+            ],
+            "releaseDate": "01 March 2019"
+        },
+        {
+            "title": "Fighting with My Family",
+            "category": "Movies",
+            "genres": [
+                "Biography",
+                "Comedy",
+                "Drama"
+            ],
+            "releaseDate": "01 March 2019"
+        },
+        {
+            "title": "Captain Marvel",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "ScienceFiction"
+            ],
+            "releaseDate": "08 March 2019"
+        },
+        {
+            "title": "Us",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Thriller"
+            ],
+            "releaseDate": "15 March 2019"
+        },
+        {
+            "title": "Wonder Park",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Adventure",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "15 March 2019"
+        },
+        {
+            "title": "Five Feet Apart",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Romance"
+            ],
+            "releaseDate": "22 March 2019"
+        },
+        {
+            "title": "The Beach Bum",
+            "category": "Movies",
+            "genres": [
+                "Comedy"
+            ],
+            "releaseDate": "22 March 2019"
+        },
+        {
+            "title": "Three Seconds",
+            "category": "Movies",
+            "genres": [
+                "Crime",
+                "Drama"
+            ],
+            "releaseDate": "22 March 2019"
+        },
+        {
+            "title": "Dumbo",
+            "category": "Movies",
+            "genres": [
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "29 March 2019"
+        },
+        {
+            "title": "Captive State",
+            "category": "Movies",
+            "genres": [
+                "ScienceFiction",
+                "Thriller"
+            ],
+            "releaseDate": "29 March 2019"
+        },
+        {
+            "title": "Pet Sematary",
+            "category": "Movies",
+            "genres": [
+                "Horror"
+            ],
+            "releaseDate": "05 April 2019"
+        },
+        {
+            "title": "Shazam!",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "ScienceFiction"
+            ],
+            "releaseDate": "05 April 2019"
+        },
+        {
+            "title": "Peterloo",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "History"
+            ],
+            "releaseDate": "05 April 2019"
+        },
+        {
+            "title": "The Best of Enemies",
+            "category": "Movies",
+            "genres": [
+                "Biography",
+                "Drama",
+                "History"
+            ],
+            "releaseDate": "05 April 2019"
+        },
+        {
+            "title": "Hellboy",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "ScienceFiction"
+            ],
+            "releaseDate": "12 April 2019"
+        },
+        {
+            "title": "After",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Romance",
+                "Thriller"
+            ],
+            "releaseDate": "12 April 2019"
+        },
+        {
+            "title": "Under the Silver Lake",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Crime",
+                "Drama",
+                "Mystery",
+                "Thriller"
+            ],
+            "releaseDate": "19 April 2019"
+        },
+        {
+            "title": "The Curse of La Llorona",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Mystery",
+                "Thriller"
+            ],
+            "releaseDate": "19 April 2019"
+        },
+        {
+            "title": "The Aftermath",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Romance",
+                "War"
+            ],
+            "releaseDate": "26 April 2019"
+        },
+        {
+            "title": "Untitled Avengers Movie",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "ScienceFiction"
+            ],
+            "releaseDate": "03 May 2019"
+        },
+        {
+            "title": "Pokémon Detective Pikachu",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Family",
+                "Fantasy",
+                "Mystery",
+                "ScienceFiction"
+            ],
+            "releaseDate": "10 May 2019"
+        },
+        {
+            "title": "John Wick: Chapter 3",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Crime",
+                "Thriller"
+            ],
+            "releaseDate": "17 May 2019"
+        },
+        {
+            "title": "Rocketman",
+            "category": "Movies",
+            "genres": [
+                "Biography",
+                "Drama",
+                "Fantasy"
+            ],
+            "releaseDate": "17 May 2019"
+        },
+        {
+            "title": "Doom",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Horror",
+                "ScienceFiction"
+            ],
+            "releaseDate": "17 May 2019"
+        },
+        {
+            "title": "Aladdin",
+            "category": "Movies",
+            "genres": [
+                "Adventure",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "24 May 2019"
+        },
+        {
+            "title": "Ad Astra",
+            "category": "Movies",
+            "genres": [
+                "Adventure",
+                "Drama",
+                "Mystery"
+            ],
+            "releaseDate": "24 May 2019"
+        },
+        {
+            "title": "Godzilla: King of the Monsters",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "Horror",
+                "ScienceFiction"
+            ],
+            "releaseDate": "31 May 2019"
+        },
+        {
+            "title": "Dark Phoenix",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "ScienceFiction"
+            ],
+            "releaseDate": "07 June 2019"
+        },
+        {
+            "title": "Untitled Men in Black Spin-Off",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Comedy",
+                "ScienceFiction"
+            ],
+            "releaseDate": "14 June 2019"
+        },
+        {
+            "title": "Shaft",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Crime"
+            ],
+            "releaseDate": "14 June 2019"
+        },
+        {
+            "title": "Toy Story 4",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Adventure",
+                "Comedy",
+                "Family",
+                "Fantasy"
+            ],
+            "releaseDate": "21 June 2019"
+        },
+        {
+            "title": "Ford v. Ferrari",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Biography",
+                "Drama"
+            ],
+            "releaseDate": "28 June 2019"
+        },
+        {
+            "title": "Untitled Annabelle Film",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Mystery",
+                "Thriller"
+            ],
+            "releaseDate": "03 July 2019"
+        },
+        {
+            "title": "Spider-Man: Far From Home",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy",
+                "ScienceFiction"
+            ],
+            "releaseDate": "05 July 2019"
+        },
+        {
+            "title": "17 Bridges",
+            "category": "Movies",
+            "genres": [
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "12 July 2019"
+        },
+        {
+            "title": "The Lion King",
+            "category": "Movies",
+            "genres": [
+                "Adventure",
+                "Drama",
+                "Family",
+                "Musical"
+            ],
+            "releaseDate": "19 July 2019"
+        },
+        {
+            "title": "Once Upon a Time in Hollywood",
+            "category": "Movies",
+            "genres": [
+                "Comedy",
+                "Drama"
+            ],
+            "releaseDate": "26 July 2019"
+        },
+        {
+            "title": "Hobbs and Shaw",
+            "category": "Movies",
+            "genres": [
+                "Action"
+            ],
+            "releaseDate": "02 August 2019"
+        },
+        {
+            "title": "Dora the Explorer",
+            "category": "Movies",
+            "genres": [
+                "Adventure",
+                "Family"
+            ],
+            "releaseDate": "02 August 2019"
+        },
+        {
+            "title": "The New Mutants",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Horror",
+                "ScienceFiction"
+            ],
+            "releaseDate": "02 August 2019"
+        },
+        {
+            "title": "Artemis Fowl",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Fantasy",
+                "Family"
+            ],
+            "releaseDate": "09 August 2019"
+        },
+        {
+            "title": "It: Chapter Two",
+            "category": "Movies",
+            "genres": [
+                "Horror",
+                "Thriller"
+            ],
+            "releaseDate": "06 September 2019"
+        },
+        {
+            "title": "Spies in Disguise",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Action",
+                "Adventure",
+                "Comedy",
+                "Fantasy",
+                "ScienceFiction"
+            ],
+            "releaseDate": "13 September 2019"
+        },
+        {
+            "title": "The Kitchen",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Crime",
+                "Drama",
+                "ScienceFiction"
+            ],
+            "releaseDate": "20 September 2019"
+        },
+        {
+            "title": "Joker",
+            "category": "Movies",
+            "genres": [
+                "Crime",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "04 October 2019"
+        },
+        {
+            "title": "Gemini Man",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Drama",
+                "ScienceFiction"
+            ],
+            "releaseDate": "04 October 2019"
+        },
+        {
+            "title": "The Woman in the Window",
+            "category": "Movies",
+            "genres": [
+                "Crime",
+                "Drama",
+                "Mystery",
+                "Thriller"
+            ],
+            "releaseDate": "04 October 2019"
+        },
+        {
+            "title": "Zombieland 2",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Comedy",
+                "Horror"
+            ],
+            "releaseDate": "11 October 2019"
+        },
+        {
+            "title": "The Goldfinch",
+            "category": "Movies",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "11 October 2019"
+        },
+        {
+            "title": "The Addams Family",
+            "category": "Movies",
+            "genres": [
+                "Animation",
+                "Comedy",
+                "Family",
+                "Fantasy",
+                "Horror"
+            ],
+            "releaseDate": "18 October 2019"
+        },
+        {
+            "title": "Untitled Mr. Rogers/Tom Hanks Project",
+            "category": "Movies",
+            "genres": [
+                "Biography",
+                "Drama"
+            ],
+            "releaseDate": "18 October 2019"
+        },
+        {
+            "title": "Untitled Terminator Reboot",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "ScienceFiction"
+            ],
+            "releaseDate": "01 November 2019"
+        },
+        {
+            "title": "Charlie's Angels",
+            "category": "Movies",
+            "genres": [
+                "Action",
+                "Adventure",
+                "Comedy"
+            ],
+            "releaseDate": "01 November 2019"
+        },
+        {
+            "title": "Kingdom Hearts 3",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "MMORPG"
+            ],
+            "releaseDate": "January 25, 2019"
+        },
+        {
+            "title": "Resident Evil 2 Remake",
+            "category": "VideoGames",
+            "genres": [
+                "Horror",
+                "FPS"
+            ],
+            "releaseDate": "January 25, 2019"
+        },
+        {
+            "title": "Trials Rising",
+            "category": "VideoGames",
+            "genres": [
+                "Racing"
+            ],
+            "releaseDate": "February 28, 2019"
+        },
+        {
+            "title": "Metro: Exodus",
+            "category": "VideoGames",
+            "genres": [
+                "FPS"
+            ],
+            "releaseDate": "February 22, 2019"
+        },
+        {
+            "title": "Crackdown 3",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "February 22, 2019"
+        },
+        {
+            "title": "Anthem",
+            "category": "VideoGames",
+            "genres": [
+                "MMORPG"
+            ],
+            "releaseDate": "February 22, 2019"
+        },
+        {
+            "title": "Devil May Cry 5",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "March 8, 2019"
+        },
+        {
+            "title": "The Division 2",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "RPG"
+            ],
+            "releaseDate": "March 15, 2019"
+        },
+        {
+            "title": "Sekiro: Shadows Die Twice",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "March 22, 2019"
+        },
+        {
+            "title": "Days Gone",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "April 26, 2019"
+        },
+        {
+            "title": "Shenmue 3",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "August 29, 2019"
+        },
+        {
+            "title": "Ori And The Will Of The Wisps",
+            "category": "VideoGames",
+            "genres": [
+                "Adventure"
+            ],
+            "releaseDate": "May 15, 2019"
+        },
+        {
+            "title": "Rage 2",
+            "category": "VideoGames",
+            "genres": [
+                "FPS"
+            ],
+            "releaseDate": "May 15, 2019"
+        },
+        {
+            "title": "Concrete Genie",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "May 15, 2019"
+        },
+        {
+            "title": "Star Wars: Jedi Fallen Order",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Gears 5",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "FPS"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Medievil",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Jump Force",
+            "category": "VideoGames",
+            "genres": [
+                "Fighting"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Skull & Bones",
+            "category": "VideoGames",
+            "genres": [
+                "Action"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Code Vein",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "RPG"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Babylon’s Fall",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure",
+                "MMORPG"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Doom Eternal",
+            "category": "VideoGames",
+            "genres": [
+                "Horror",
+                "FPS"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Ghost Of Tsushima",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "The Last Of Us: Part II",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Halo Infinite",
+            "category": "VideoGames",
+            "genres": [
+                "FPS"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Death Stranding",
+            "category": "VideoGames",
+            "genres": [
+                "Action"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Bayonetta 3",
+            "category": "VideoGames",
+            "genres": [
+                "Action"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Metroid Prime 4",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "The Elder Scrolls VI",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Starfield",
+            "category": "VideoGames",
+            "genres": [
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "December 25, 2019"
+        },
+        {
+            "title": "Vikings",
+            "category": "Television",
+            "genres": [
+                "Drama",
+                "Action",
+                "Adventure"
+            ],
+            "releaseDate": "28 November 2018"
+        },
+        {
+            "title": "Nightflyers",
+            "category": "Television",
+            "genres": [
+                "ScienceFiction",
+                "Horror"
+            ],
+            "releaseDate": "02 December 2018"
+        },
+        {
+            "title": "Botched",
+            "category": "Television",
+            "genres": [
+                "Reality"
+            ],
+            "releaseDate": "06 December 2018"
+        },
+        {
+            "title": "Counterpart",
+            "category": "Television",
+            "genres": [
+                "ScienceFiction",
+                "Thriller"
+            ],
+            "releaseDate": "09 December 2018"
+        },
+        {
+            "title": "Marvel's Runaways",
+            "category": "Television",
+            "genres": [
+                "Adventure",
+                "Superhero",
+                "Teen",
+                "Drama"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "The Passage",
+            "category": "Television",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "14 January 2019"
+        },
+        {
+            "title": "Deadly Class",
+            "category": "Television",
+            "genres": [
+                "Action",
+                "Drama",
+                "Thriller"
+            ],
+            "releaseDate": "16 January 2019"
+        },
+        {
+            "title": "A Discover of Witches",
+            "category": "Television",
+            "genres": [
+                "Fantasy",
+                "Romance",
+                "Drama"
+            ],
+            "releaseDate": "17 January 2019"
+        },
+        {
+            "title": "Good Trouble",
+            "category": "Television",
+            "genres": [
+                "Family",
+                "Drama"
+            ],
+            "releaseDate": "08 January 2019"
+        },
+        {
+            "title": "The Masked Singer",
+            "category": "Television",
+            "genres": [
+                "Reality"
+            ],
+            "releaseDate": "02 January 2019"
+        },
+        {
+            "title": "The Marvelous Mrs. Maisel",
+            "category": "Television",
+            "genres": [
+                "Comedy",
+                "Drama"
+            ],
+            "releaseDate": "05 December 2018"
+        },
+        {
+            "title": "Berlin Station",
+            "category": "Television",
+            "genres": [
+                "Drama"
+            ],
+            "releaseDate": "03 December 2018"
+        },
+        {
+            "title": "The Profit",
+            "category": "Television",
+            "genres": [
+                "Reality"
+            ],
+            "releaseDate": "04 December 2018"
+        },
+        {
+            "title": "Tidelands",
+            "category": "Television",
+            "genres": [
+                "Fantasy",
+                "Crime",
+                "Drama"
+            ],
+            "releaseDate": "14 December 2018"
+        },
+        {
+            "title": "Tales of Arcadia",
+            "category": "Television",
+            "genres": [
+                "Animation",
+                "ScienceFiction",
+                "Fantasy"
+            ],
+            "releaseDate": "21 December 2018"
+        },
+        {
+            "title": "Meghan Trainor: Treat Myself",
+            "category": "Music",
+            "genres": [
+                "Pop"
+            ],
+            "releaseDate": "25 January 2019"
+        },
+        {
+            "title": "Taylor Swift: Red",
+            "category": "Music",
+            "genres": [
+                "Pop"
+            ],
+            "releaseDate": "23 November 2018"
+        },
+        {
+            "title": "Mariah Carey: Caution",
+            "category": "Music",
+            "genres": [
+                "Pop"
+            ],
+            "releaseDate": "19 November 2018"
+        },
+        {
+            "title": "Rita Ora: Pheonix",
+            "category": "Music",
+            "genres": [
+                "Pop"
+            ],
+            "releaseDate": "23 November 2018"
+        },
+        {
+            "title": "Alessia Cara: The Pains of Growing",
+            "category": "Music",
+            "genres": [
+                "Pop"
+            ],
+            "releaseDate": "30 November 2018"
+        },
+        {
+            "title": "Anderson East: Encore",
+            "category": "Music",
+            "genres": [
+                "Country"
+            ],
+            "releaseDate": "12 January 2019"
+        },
+        {
+            "title": "Montgomery Gentry: Here's to You",
+            "category": "Music",
+            "genres": [
+                "Country"
+            ],
+            "releaseDate": "2 February 2019"
+        },
+        {
+            "title": "Ashley McBryde: Girl Going Nowhere",
+            "category": "Music",
+            "genres": [
+                "Country"
+            ],
+            "releaseDate": "30 March 2019"
+        },
+        {
+            "title": "Johnny Cash: Forever Words",
+            "category": "Music",
+            "genres": [
+                "Country"
+            ],
+            "releaseDate": "6 April 2019"
+        },
+        {
+            "title": "Keith Urban: Graffiti U",
+            "category": "Music",
+            "genres": [
+                "Country"
+            ],
+            "releaseDate": "27 April 2019"
+        },
+        {
+            "title": "Kanye West: Yandhi",
+            "category": "Music",
+            "genres": [
+                "Rap"
+            ],
+            "releaseDate": "23 November 2018"
+        },
+        {
+            "title": "21 Savage: TBA",
+            "category": "Music",
+            "genres": [
+                "Rap"
+            ],
+            "releaseDate": "7 December 2018"
+        },
+        {
+            "title": "Gucci Mane: Evil Genis",
+            "category": "Music",
+            "genres": [
+                "Rap"
+            ],
+            "releaseDate": "7 December 2018"
+        },
+        {
+            "title": "XXXTentacion: Skins",
+            "category": "Music",
+            "genres": [
+                "Rap"
+            ],
+            "releaseDate": "7 December 2018"
+        },
+        {
+            "title": "Method Man: The Meth Lab 2",
+            "category": "Music",
+            "genres": [
+                "Rap"
+            ],
+            "releaseDate": "11 December 2018"
+        },
+        {
+            "title": "The Wicked King",
+            "category": "Books",
+            "genres": [
+                "Fantasy",
+                "YoungAdult"
+            ],
+            "releaseDate": "1 January 2019"
+        },
+        {
+            "title": "The Me I Meant To Be",
+            "category": "Books",
+            "genres": [
+                "Drama",
+                "YoungAdult"
+            ],
+            "releaseDate": "1 January 2019"
+        },
+        {
+            "title": "The Similars",
+            "category": "Books",
+            "genres": [
+                "ScienceFiction",
+                "YoungAdult",
+                "Suspence"
+            ],
+            "releaseDate": "1 January 2019"
+        },
+        {
+            "title": "Undying",
+            "category": "Books",
+            "genres": [
+                "ScienceFiction",
+                "YoungAdult",
+                "Suspence",
+                "Adventure"
+            ],
+            "releaseDate": "8 January 2019"
+        },
+        {
+            "title": "In An Absent Dream",
+            "category": "Books",
+            "genres": [
+                "Fantasy",
+                "Adventure",
+                "YoungAdult"
+            ],
+            "releaseDate": "8 January 2019"
+        },
+        {
+            "title": "The Girl King",
+            "category": "Books",
+            "genres": [
+                "YoungAdult",
+                "War",
+                "History",
+                "Adventure"
+            ],
+            "releaseDate": "8 January 2019"
+        },
+        {
+            "title": "White Stag",
+            "category": "Books",
+            "genres": [
+                "Fantasy",
+                "YoungAdult",
+                "Adventure"
+            ],
+            "releaseDate": "8 January 2019"
+        },
+        {
+            "title": "Slayer",
+            "category": "Books",
+            "genres": [
+                "Fantasy",
+                "YoungAdult",
+                "Suspence",
+                "Horror"
+            ],
+            "releaseDate": "8 January 2019"
+        },
+        {
+            "title": "Courting Darkness",
+            "category": "Books",
+            "genres": [
+                "Fantasy",
+                "YoungAdult",
+                "Adventure"
+            ],
+            "releaseDate": "5 February 2019"
+        },
+        {
+            "title": "Lady Smoke",
+            "category": "Books",
+            "genres": [
+                "History",
+                "YoungAdult",
+                "Adventure"
+            ],
+            "releaseDate": "5 February 2019"
+        },
+        {
+            "title": "Dark of the West",
+            "category": "Books",
+            "genres": [
+                "War",
+                "Adventure",
+                "YoungAdult"
+            ],
+            "releaseDate": "5 February 2019"
+        },
+        {
+            "title": "The Cerulean",
+            "category": "Books",
+            "genres": [
+                "Fantasy",
+                "YoungAdult",
+                "Adventure"
+            ],
+            "releaseDate": "5 February 2019"
+        },
+        {
+            "title": "Drop Dead Gorgeous",
+            "category": "Books",
+            "genres": [
+                "Horror",
+                "Suspence",
+                "YoungAdult"
+            ],
+            "releaseDate": "5 February 2019"
+        },
+        {
+            "title": "Crown of Feathers",
+            "category": "Books",
+            "genres": [
+                "War",
+                "YoungAdult",
+                "Fantasy",
+                "Adventure"
+            ],
+            "releaseDate": "12 February 2019"
+        },
+        {
+            "title": "The Blood Spell",
+            "category": "Books",
+            "genres": [
+                "Fantasy",
+                "YoungAdult",
+                "Adventure"
+            ],
+            "releaseDate": "12 February 2019"
+        }
+    ]
 }

@@ -94,12 +94,12 @@ Write(ViewData["Message"]);
             WriteLiteral("</h3>\r\n\r\n");
             EndContext();
             BeginContext(163, 3565, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9e69eae1115648aa9e71fb2e249d3e30", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8febe0f800034a1ebde8f195a42e725b", async() => {
                 BeginContext(225, 202, true);
                 WriteLiteral("\r\n    <div class=\"row\">\r\n\r\n        <div class=\"form-group\">\r\n            <label for=\"mediaType\">Media Type: </label>\r\n\t\t\t<select name=\"mediaType\" class=\"form-control\" onchange=\"mediaSelect(this)\">\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(427, 32, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b7ecb1fc881145178056421d41fc6467", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0b0282f6c0904b28b15168ea86a65cc8", async() => {
                     BeginContext(447, 3, true);
                     WriteLiteral("All");
                     EndContext();
@@ -121,7 +121,7 @@ Write(ViewData["Message"]);
                 WriteLiteral("\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(465, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4ded9a15cdbc4b74b89e6e58eaa6b327", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14587e8e33ee41bf95a12e04d48d5941", async() => {
                     BeginContext(488, 6, true);
                     WriteLiteral("Movies");
                     EndContext();
@@ -143,7 +143,7 @@ Write(ViewData["Message"]);
                 WriteLiteral("\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(509, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5eac7aa964e14282804ca93220ad1294", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc139920eddb47028970769328c6205b", async() => {
                     BeginContext(531, 5, true);
                     WriteLiteral("Music");
                     EndContext();
@@ -165,7 +165,7 @@ Write(ViewData["Message"]);
                 WriteLiteral("\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(551, 47, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bbb66de05e374f01b33de3c87e79d5cc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "409cc515751d4d3298cdd9c7cde61437", async() => {
                     BeginContext(578, 11, true);
                     WriteLiteral("Video Games");
                     EndContext();
@@ -187,7 +187,7 @@ Write(ViewData["Message"]);
                 WriteLiteral("\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(604, 36, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "967198e886dc4842a47ac3ab9fdb000a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6c00ea521667460ba5513af6ff1a482f", async() => {
                     BeginContext(626, 5, true);
                     WriteLiteral("Books");
                     EndContext();
@@ -209,7 +209,7 @@ Write(ViewData["Message"]);
                 WriteLiteral("\r\n\t\t\t\t");
                 EndContext();
                 BeginContext(646, 46, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a11f91d9eb6747d6aa9f2a5375981d81", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "03535a60cdad43a9ac6cd5caaf276f1b", async() => {
                     BeginContext(673, 10, true);
                     WriteLiteral("Television");
                     EndContext();
@@ -247,7 +247,7 @@ Write(ViewData["Message"]);
                     ");
                 EndContext();
                 BeginContext(1152, 76, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b76d7e9d282e4b9c9f4fc4d5dacf3ed7", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "be576a4af4a84571bd6443f7f23ea1f4", async() => {
                     BeginContext(1194, 25, true);
                     WriteLiteral("Select a Type of Media...");
                     EndContext();
@@ -269,7 +269,7 @@ Write(ViewData["Message"]);
                 WriteLiteral("\r\n                </select>\r\n            </div>\r\n\r\n\t\t   <div class=\"form-group\">\r\n                <label id=\"creatorLabel\" for=\"Genre2\">Genre2: </label>\r\n                <select name=\"creator\" class=\"form-control\">\r\n                    ");
                 EndContext();
                 BeginContext(1464, 76, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0dcf50dc91044f5da46ed472f626c5c3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "98f1a3693afc4e4eae6358e09c479ff9", async() => {
                     BeginContext(1506, 25, true);
                     WriteLiteral("Select a Type of Media...");
                     EndContext();
@@ -291,7 +291,7 @@ Write(ViewData["Message"]);
                 WriteLiteral("\r\n                </select>\r\n            </div>\r\n\r\n\t\t\t  <div class=\"form-group\">\r\n                <label id=\"creatorLabel\" for=\"Genre3\">Genre3: </label>\r\n                <select name=\"creator\" class=\"form-control\">\r\n                    ");
                 EndContext();
                 BeginContext(1776, 76, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "35b192230a764069b76f09ca40709f9c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa07641e3fcd41a1ae4a12bb05dcb8a6", async() => {
                     BeginContext(1818, 25, true);
                     WriteLiteral("Select a Type of Media...");
                     EndContext();

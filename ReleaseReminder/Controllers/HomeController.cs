@@ -28,8 +28,7 @@ namespace ReleaseReminder.Controllers
         [HttpPost]
         public IActionResult Index(IFormCollection formCollection)
         {
-            string firstName = formCollection["firstName"];
-            string lastName = formCollection["lastName"];
+            string userName = formCollection["userName"];
             string emailAddress = formCollection["email"];
             string password = formCollection["password"];
             

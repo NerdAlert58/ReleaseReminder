@@ -3,6 +3,31 @@
 
 // Write your JavaScript code.
 
+tableColoring();
+
+function tableColoring(){
+    var table = document.getElementById("formTable");
+
+
+    for (var i = 1, row; row = table.rows[i]; i++) { //avoiding first row because it's just the headers
+        if (row.cells[4].innerHTML == "Movies") {
+            row.style.backgroundColor = "#067BC2";    
+        }
+        else if (row.cells[4].innerHTML == "VideoGames") {
+            row.style.backgroundColor = "#2ECC71";
+        }
+        else if (row.cells[4].innerHTML == "Music") {
+            row.style.backgroundColor = "#76D7C4";
+        }
+        else if (row.cells[4].innerHTML == "Books") {
+            row.style.backgroundColor = "#2E86C1";
+        }
+        else if (row.cells[4].innerHTML == "Television") {
+            row.style.backgroundColor = "#5DADE2";
+        }
+    }
+}
+
 function mediaSelect(selectObject) {
     var value = selectObject.value;
 
@@ -17,7 +42,6 @@ function mediaSelect(selectObject) {
 		tableFilter("music");
 	}
 	else if (value == "Books") {
-		console.log("The other one.")
 		tableFilter("books");
 	}
 	else if (value == "Television") {
@@ -29,14 +53,14 @@ function mediaSelect(selectObject) {
 }
 
 function tableFilter(filterVar) {
-	var input, filter, table, tr, td, i;
+	var filter, table, tr, td, i;
 	filter = filterVar.toUpperCase();
 	table = document.getElementById("formTable");
 	tr = table.getElementsByTagName("tr");
 
 	// Loop through all table rows, and hide those who don't match the search query
 	for (i = 1; i < tr.length; i++) { //i = 1 to avoid headers
-		td = tr[i].getElementsByTagName("td")[1]; //at[1] because filtering categories
+		td = tr[i].getElementsByTagName("td")[4]; //at[1] because filtering categories
 		if (td) {
 			if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
 				tr[i].style.display = "";
@@ -59,5 +83,32 @@ function validatePassword() {
 	}
 }
 
-password.onchange = validatePassword;
-confirm_password.onkeyup = validatePassword;
+password.onchange = validatePassword();
+confirm_password.onkeyup = validatePassword();
+
+
+
+function selectedData() {
+    var table = document.getElementById("formTable");
+
+    var count = 0;
+    var stringArray = new Array();
+
+    for (var i = 1, row; row = table.rows[i]; i++) { //avoiding first row because it's just the headers
+        if (row.cells[0].children[0].checked) { //checking the first rows textbox
+            stringArray[count] = row.cells[1].innerHTML;
+            count++;
+        }
+    }
+    var postData = { values: stringArray };
+    $.ajax({
+        type: "POST",
+        url: "/Home/Forms",
+        data: postData,
+        success: function () {
+            alert("Successfully Submitted your Reminders.");
+        },
+        dataType: "json",
+        traditional: true
+    });
+}

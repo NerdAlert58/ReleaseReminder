@@ -17,6 +17,23 @@ namespace ReleaseReminder.Models
             var second = (Reminder)y;
             return string.Compare(first.Title, second.Title);
         }
+
+        public override bool Equals(object obj)
+        {
+            var other = (Reminder)obj;
+            return string.Equals(this.Title, other.Title);
+        }
+
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                int hash = 17;
+
+                hash = hash * 23 + this.Title.GetHashCode();
+                return hash;
+            }
+        }
     }
 
     public enum Category

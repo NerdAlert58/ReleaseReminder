@@ -48,7 +48,6 @@ C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreap
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.RazorCoreGenerate.cache
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
-C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\Forms.g.cshtml.cs
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
@@ -130,3 +129,4 @@ C:\Users\Warren Sinor\Desktop\ReleaseReminder\ReleaseReminder\obj\Debug\netcorea
 C:\Users\Warren Sinor\Desktop\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.dll
 C:\Users\Warren Sinor\Desktop\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.pdb
 C:\Users\Warren Sinor\Desktop\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.csproj.CopyComplete
+C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\selectReminder.g.cshtml.cs

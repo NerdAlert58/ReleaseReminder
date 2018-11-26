@@ -16,11 +16,15 @@ select3.disabled = true;
 //calls the function to color code the table
 tableColoring();
 
-//Media stores the value of media type selected, declared globally because used it multiple places.
-var media;
 
 //globablly declaring the dropdown list for genre that will be received from ajax call to controller. 
-var genreDropdownList = new List();
+var genreDropdownList;
+
+//Media stores the value of media type selected, declared globally because used it multiple places.
+var media = "";
+getGenresAjax();
+generateDropdown();
+tableFilter();
 
 
 function tableColoring() {
@@ -61,7 +65,20 @@ function mediaSelect(selectObject) {
         media = ""; //else it is ALL, which should do no filtering
     }
 
-    //Ajax post to get the list of genres from the home controller
+    getGenresAjax();   
+
+    //disabling the second and third genre select while the first is set to all. No functionality, but looks better
+    select2.disabled = true; 
+    select3.disabled = true;
+
+    //calls to the generateDropdown function to be able to fill the genre drop downs with proper options
+    generateDropdown();
+
+    //calling table filter to update the filter based on current media type selection
+    tableFilter();
+}
+
+function getGenresAjax() {
     $.ajax({
         type: "POST",
         url: "getGenres",
@@ -78,17 +95,7 @@ function mediaSelect(selectObject) {
         }
     });
 
-    //disabling the second and third genre select while the first is set to all. No functionality, but looks better
-    select2.disabled = true; 
-    select3.disabled = true;
-
-    //calls to the generateDropdown function to be able to fill the genre drop downs with proper options
-    generateDropdown();
-
-    //calling table filter to update the filter based on current media type selection
-    tableFilter();
 }
-
 
 function generateDropdown() {
 
@@ -169,7 +176,6 @@ function genreFilter(select) { //is called when Genre dropdown 1 changes values
 
 function tableFilter() {
     var  table, tr, i; //delcaring varibles that will be used throughout,
-
     var mediaFilter = media.toUpperCase(); //filter for media column
 
     var textFilter = document.getElementById("filterText").value.toUpperCase(); //filter for text column, gets updated per key up
@@ -179,9 +185,9 @@ function tableFilter() {
 
     tr = table.getElementsByTagName("tr"); //defining rows
 
-    var genreFilter1 = select1.value.toUpperCase(); //value of the first genre filter
+    var genreFilter1, genreFilter2, genreFilter3;
 
-    var genreFilter2, genreFilter3;
+        genreFilter1 = select1.value.toUpperCase(); //value of the first genre filter
 
     if (genreFilter1 == "") { //if the first genre dropdown is all, then no genre filtering
         genreFilter2 = "";

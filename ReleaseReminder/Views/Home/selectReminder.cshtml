@@ -1,6 +1,4 @@
-﻿<script src="~/js/site.js" asp-append-version="true"></script>
-<link rel="stylesheet" href="~/css/site.css" />
-
+﻿<link rel="stylesheet" href="~/css/site.css" />
 @model List<ReleaseReminder.Models.Reminder>
 
 @{
@@ -8,7 +6,6 @@
 }
 <h2>@ViewData["Title"]</h2>
 <h3>@ViewData["Message"]</h3>
-
 <form id="myForm" method="post" enctype="multipart/form-data">
     <div class="row">
 
@@ -29,7 +26,7 @@
 
             <div class="form-group">
                 <label for="title">Title: </label>
-                <input type="text" class="form-control" name="filterText" id="filterText" onkeyup="tableFilter(this)" />
+                <input type="text" class="form-control" name="filterText" id="filterText" onkeyup="tableFilter()" />
             </div>
 
 

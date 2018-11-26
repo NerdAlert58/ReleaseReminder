@@ -1,4 +1,6 @@
-﻿@model List<ReleaseReminder.Models.Reminder>
+﻿<script src="~/js/site.js" asp-append-version="true"></script>
+<link rel="stylesheet" href="~/css/site.css" />
+@model List<ReleaseReminder.Models.Reminder>
 
 @{
     ViewData["Title"] = "Add New Reminders";
@@ -9,13 +11,13 @@
 <form id="myForm" method="post" enctype="multipart/form-data">
     <div class="row">
 
-   
+
 
 
         <div class="col-sm-6">
 
             <label for="mediaType">Media Type: </label>
-            <select name="mediaType" class="form-control" onchange="mediaSelect(this)">
+            <select name="mediaType" class="form-control" id="mediaType" onchange="mediaSelect(this)">
                 <option value="All">All</option>
                 <option value="Movies">Movies</option>
                 <option value="Music">Music</option>
@@ -26,33 +28,33 @@
 
             <div class="form-group">
                 <label for="title">Title: </label>
-                <input type="text" class="form-control" name="appName" required />
+                <input type="text" class="form-control" name="filterText" id="filterText" onkeyup="tableFilter(this)" />
             </div>
 
 
             <div class="form-group">
                 <label id="creatorLabel" for="Genre1">Genre1: </label>
-                <select name="creator" class="form-control">
+                <select name="creator" id="genre1" class="form-control" onchange="genreFilter(this)">
                     <option value="Select a Type of Media...">Select a Type of Media...</option>
                 </select>
             </div>
 
             <div class="form-group">
                 <label id="creatorLabel" for="Genre2">Genre2: </label>
-                <select name="creator" class="form-control">
+                <select name="creator" id="genre2" class="form-control" onchange="tableFilter()">
                     <option value="Select a Type of Media...">Select a Type of Media...</option>
                 </select>
             </div>
 
             <div class="form-group">
                 <label id="creatorLabel" for="Genre3">Genre3: </label>
-                <select name="creator" class="form-control">
+                <select name="creator" id="genre3" class="form-control" onchange="tableFilter()">
                     <option value="Select a Type of Media...">Select a Type of Media...</option>
                 </select>
             </div>
 
         </div>
-     
+
     </div>
 
     <!--    <button type="submit" form="appNew" value="Submit">Submit</button> -->
@@ -69,22 +71,22 @@
                 foreach (var app in Model)
                 {
 
-            <tr>
-                <td><input type="checkbox" name="eachCheckbox" value="unchecked" /></td>
-                <td>@app.Title</td>
-                <td>
-                    @foreach (var y in app.Genres)
-                    {
+                    <tr>
+                        <td><input type="checkbox" name="eachCheckbox" value="unchecked" /></td>
+                        <td>@app.Title</td>
+                        <td>
+                            @foreach (var y in app.Genres)
+                            {
 
-                        @y
-                        <br />
+                                @y
+                                <br />
 
-                    }
-                </td>
+                            }
+                        </td>
 
-                <td>@app.ReleaseDate.ToString("MM-dd-yyyy")</td>
-                <td>@app.Category</td>
-            </tr>
+                        <td>@app.ReleaseDate.ToString("MM-dd-yyyy")</td>
+                        <td>@app.Category</td>
+                    </tr>
 
                 }
             }
@@ -92,4 +94,4 @@
         </table>
     </div>
 </form>
-<input type="button" onclick="selectedData()" class="btn-success" value="Save"/>
+<input type="button" onclick="selectedData()" class="btn-success" value="Save" />

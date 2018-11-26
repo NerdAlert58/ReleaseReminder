@@ -44,17 +44,36 @@ namespace ReleaseReminder.Controllers
         {
             //Still a work in progress getting list of reminders over
             var reminderList = _reminderService.Display();
-            var test = _reminderService.GetRemindersMap();
 
             return View(reminderList);
         }
+
         [HttpPost]
-        public int selectReminder(List<String> values) //scott change me from an int type to whatever you need
+        public JsonResult getGenres([FromBody]string data)
         {
-
-
-            return 0;
+            var allGeneres = _reminderService.GetRemindersMap();
+            List<string> specificGenres = new List<string>();
+            foreach(var x in allGeneres)
+            {
+               if(x.Key.ToString() == data)
+                {
+                    foreach (var y in x.Value.Keys)
+                    {
+                        specificGenres.Add(y.ToString());
+;                   }
+                }
+            }
+            return Json(specificGenres);
         }
+
+        [HttpPost]
+        public JsonResult reminderSubmission(List<String> values) //Mr. Scott the values being returned here are the titles from submitting!!!
+        {
+      
+            return Json("test"); //just returning something so ajax can use a success function
+          
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

@@ -14,7 +14,6 @@ select2.disabled = true;
 select3.disabled = true;
 
 //calls the function to color code the table
-tableColoring();
 
 
 //globablly declaring the dropdown list for genre that will be received from ajax call to controller. 
@@ -26,25 +25,6 @@ getGenresAjax();
 generateDropdown();
 tableFilter();
 
-
-function tableColoring() {
-    var table = document.getElementById("formTable"); //getting the form table by id for editing
-
-    //goes through every row, and colors based on specific text in the media type
-    for (var i = 1, row; row = table.rows[i]; i++) { //avoiding first row because it's just the headers
-        if (row.cells[4].innerHTML == "Movies") {
-            row.style.backgroundColor = "#5DADE2";
-        } else if (row.cells[4].innerHTML == "VideoGames") {
-            row.style.backgroundColor = "#5D6BE2";
-        } else if (row.cells[4].innerHTML == "Music") {
-            row.style.backgroundColor = "#925DE2";
-        } else if (row.cells[4].innerHTML == "Books") {
-            row.style.backgroundColor = "#D55DE2";
-        } else if (row.cells[4].innerHTML == "Television") {
-            row.style.backgroundColor = "#E25D6B";
-        }
-    }
-}
 
 //updates every time a media type is selected
 function mediaSelect(selectObject) { 
@@ -237,8 +217,8 @@ function selectedData() { //Function for sending the selected data back to contr
         url: "/Home/reminderSubmission",
         data: postData,
         success: function (data) {
-            alert("Successfully Submitted your Reminders. Go to My Reminders to View.");
-            location.reload();
+            alert("Successfully Submitted your Reminders. Go to Subscribed Reminders to View to see what you are subscribed to.");
+            window.location.replace("/home/displaySelected");
 
         },
         dataType: "json",

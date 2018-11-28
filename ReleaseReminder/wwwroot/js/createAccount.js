@@ -1,7 +1,6 @@
 ﻿//below is from https://codepen.io/diegoleme/pen/surIK
 
 function validatePassword() { //used to validate passwords
-    console.log("out");
     var password = document.getElementById("password1");
     var confirm_password = document.getElementById("password2"); 
 

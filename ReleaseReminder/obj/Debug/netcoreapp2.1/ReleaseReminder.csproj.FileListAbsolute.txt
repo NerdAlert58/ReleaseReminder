@@ -128,3 +128,4 @@ C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreap
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.csproj.CopyComplete
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\ReleaseReminder.csprojAssemblyReference.cache
 C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\displaySelected.g.cshtml.cs
+C:\Users\Warren\source\repos\ReleaseReminder\ReleaseReminder\obj\Debug\netcoreapp2.1\Razor\Views\Home\Error.g.cshtml.cs

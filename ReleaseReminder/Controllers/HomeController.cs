@@ -61,7 +61,7 @@ namespace ReleaseReminder.Controllers
             }
             else
             {
-                return View();
+                return RedirectToAction("Error", "Home", null);
             }
         }
 

@@ -6,5 +6,6 @@ namespace ReleaseReminder.Models
     {
         IList<Reminder> Reminders();
         IDictionary<Category, IDictionary<Genre, IList<Reminder>>> RemindersMap();
+        IDictionary<string, Reminder> RemindersByTitle();
     }
 }

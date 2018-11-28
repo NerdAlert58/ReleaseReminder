@@ -1,0 +1,48 @@
+﻿<link rel="stylesheet" href="~/css/site.css" />
+@model List<ReleaseReminder.Models.Reminder>
+
+@{
+    ViewData["Title"] = "Add New Reminders";
+}
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+<form id="myForm" method="post" enctype="multipart/form-data">
+    SS
+
+    <!--    <button type="submit" form="appNew" value="Submit">Submit</button> -->
+    <div class="table_edit">
+        <table id="formTable">
+            <tr>
+                <th>Selected</th>
+                <th>Title</th>
+                <th>Genre</th>
+                <th>Release Date</th>
+                <th>Category</th>
+            </tr>
+            @{
+                foreach (var app in Model)
+                {
+
+                <tr>
+                    <td><input type="checkbox" name="eachCheckbox" value="unchecked" /></td>
+                    <td>@app.Title</td>
+                    <td>
+                        @foreach (var y in app.Genres)
+                            {
+
+                        @y
+                        <br />
+
+                            }
+                    </td>
+
+                    <td>@app.ReleaseDate.ToString("MM-dd-yyyy")</td>
+                    <td>@app.Category</td>
+                </tr>
+
+                }
+            }
+
+        </table>
+    </div>
+</form>

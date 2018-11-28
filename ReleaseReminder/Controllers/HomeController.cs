@@ -48,6 +48,14 @@ namespace ReleaseReminder.Controllers
             return View(reminderList);
         }
 
+        public IActionResult displaySelected()
+        {
+            //Still a work in progress getting list of reminders over
+
+            //var reminderList = _reminderService.UserNewReminders();
+            return View();
+        }
+
         [HttpPost]
         public JsonResult getGenres([FromBody]string data)
         {

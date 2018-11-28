@@ -68,10 +68,10 @@ namespace ReleaseReminder.Models
             for (int i = 0; i < reminders.Count; i++)
             {
                 var reminder = reminders[i];
-                sb.Append($"{reminder.Title}   -----   {reminder.ReleaseDate}");
+                sb.Append($"{reminder.ReleaseDate}   -----   {reminder.Title}");
                 if (i < reminders.Count - 1)
                 {
-                    sb.Append(Environment.NewLine);
+                    sb.Append("<br/>");
                 }
             }
 

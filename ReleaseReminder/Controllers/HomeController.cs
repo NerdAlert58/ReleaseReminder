@@ -35,7 +35,7 @@ namespace ReleaseReminder.Controllers
 
             _currentUser = userName;
             _reminderService.CreateUser(userName, emailAddress, "1", password, null);
-            
+
             //this wil redirect afet creation of account
             return RedirectToAction("selectReminder", "Home", null);
         }
@@ -53,25 +53,26 @@ namespace ReleaseReminder.Controllers
         {
             var allGeneres = _reminderService.GetRemindersMap();
             List<string> specificGenres = new List<string>();
-            foreach(var x in allGeneres)
+            foreach (var x in allGeneres)
             {
-               if(x.Key.ToString() == data)
+                if (x.Key.ToString() == data)
                 {
                     foreach (var y in x.Value.Keys)
                     {
                         specificGenres.Add(y.ToString());
-;                   }
+                        ;
+                    }
                 }
             }
             return Json(specificGenres);
         }
 
         [HttpPost]
-        public JsonResult reminderSubmission(List<String> values) //Mr. Scott the values being returned here are the titles from submitting!!!
+        public JsonResult reminderSubmission(IList<string> values) //Mr. Scott the values being returned here are the titles from submitting!!!
         {
-      
+            var result = _reminderService.AddReminderToUser(_currentUser, values);
             return Json("test"); //just returning something so ajax can use a success function
-          
+
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

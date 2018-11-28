@@ -61,6 +61,16 @@ namespace ReleaseReminder.Models
             return true;
         }
 
+        public IList<Reminder> UserNewReminders()
+        {
+            if (_users.TryGetValue(_currentUser, out var user))
+            {
+                return user.Reminders;
+            }
+
+            return null;
+        }
+
         private void SendAddedRemindersEmail(User user, IList<Reminder> reminders)
         {
             var sb = new StringBuilder();
@@ -68,10 +78,10 @@ namespace ReleaseReminder.Models
             for (int i = 0; i < reminders.Count; i++)
             {
                 var reminder = reminders[i];
-                sb.Append($"{reminder.Title}   -----   {reminder.ReleaseDate}");
+                sb.Append($"{reminder.ReleaseDate.ToString("yyyy-MM-dd")}   -----   {reminder.Title}");
                 if (i < reminders.Count - 1)
                 {
-                    sb.Append(Environment.NewLine);
+                    sb.Append("<br/>");
                 }
             }
 

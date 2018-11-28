@@ -32,9 +32,10 @@ namespace ReleaseReminder.Controllers
             string userName = formCollection["userName"];
             string emailAddress = formCollection["email"];
             string password = formCollection["password"];
+            string phoneNumber = formCollection["phone"];
 
             _currentUser = userName;
-            _reminderService.CreateUser(userName, emailAddress, "1", password, null);
+            _reminderService.CreateUser(userName, emailAddress, phoneNumber, password, null);
 
             //this wil redirect afet creation of account
             return RedirectToAction("selectReminder", "Home", null);
@@ -46,6 +47,22 @@ namespace ReleaseReminder.Controllers
             var reminderList = _reminderService.Display();
 
             return View(reminderList);
+        }
+
+        public IActionResult displaySelected()
+        {
+            //Still a work in progress getting list of reminders over
+
+            var reminderList = _reminderService.UserNewReminders();
+
+            if(reminderList != null)
+            {
+                return View(reminderList);
+            }
+            else
+            {
+                return RedirectToAction("Error", "Home", null);
+            }
         }
 
         [HttpPost]

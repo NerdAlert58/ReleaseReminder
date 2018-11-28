@@ -1,4 +1,6 @@
 ﻿<link rel="stylesheet" href="~/css/site.css" />
+
+
 @model List<ReleaseReminder.Models.Reminder>
 
 @{
@@ -33,21 +35,21 @@
             <div class="form-group">
                 <label id="creatorLabel" for="Genre1">Genre1: </label>
                 <select name="creator" id="genre1" class="form-control" onchange="genreFilter(this)">
-                    <option value="Select a Type of Media...">Select a Type of Media...</option>
+                    <option value="">Select a Type of Media...</option>
                 </select>
             </div>
 
             <div class="form-group">
                 <label id="creatorLabel" for="Genre2">Genre2: </label>
                 <select name="creator" id="genre2" class="form-control" onchange="tableFilter()">
-                    <option value="Select a Type of Media...">Select a Type of Media...</option>
+                    <option value="">Select a Type of Media...</option>
                 </select>
             </div>
 
             <div class="form-group">
                 <label id="creatorLabel" for="Genre3">Genre3: </label>
                 <select name="creator" id="genre3" class="form-control" onchange="tableFilter()">
-                    <option value="Select a Type of Media...">Select a Type of Media...</option>
+                    <option value="">Select a Type of Media...</option>
                 </select>
             </div>
 
@@ -93,3 +95,6 @@
     </div>
 </form>
 <input type="button" onclick="selectedData()" class="btn-success" value="Save" />
+
+<script src="~/js/site.js"></script>
+<script src="~/js/tableColor.js"></script>

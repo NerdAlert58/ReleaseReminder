@@ -11,11 +11,13 @@ namespace ReleaseReminder.Models
         private string _filePath = "reminders.json";
         private IList<Reminder> _reminders = null;
         private IDictionary<Category, IDictionary<Genre, IList<Reminder>>> _remindersMap = null;
+        private IDictionary<string, Reminder> _remindersByTitle = null;
 
         public ReminderProvider()
         {
             _reminders = ReadFile(_filePath) ?? throw new ArgumentNullException(nameof(_reminders));
             _reminders = _reminders.OrderBy(o => o.ReleaseDate).ToList();
+            _remindersByTitle = new Dictionary<string, Reminder>(StringComparer.OrdinalIgnoreCase);
             _remindersMap = BuildMap() ?? throw new ArgumentNullException(nameof(_remindersMap));
         }
 
@@ -28,12 +30,19 @@ namespace ReleaseReminder.Models
             return _remindersMap;
         }
 
+        public IDictionary<string, Reminder> RemindersByTitle()
+        {
+            return _remindersByTitle;
+        }
+
         private IDictionary<Category, IDictionary<Genre, IList<Reminder>>> BuildMap()
         {
             var reminderMap = new Dictionary<Category, IDictionary<Genre, IList<Reminder>>>();
             for (int i = 0; i < _reminders.Count; i++)
             {
                 var reminder = _reminders[i];
+                _remindersByTitle[reminder.Title] = reminder;
+
                 if (!reminderMap.TryGetValue(reminder.Category, out var genreMap))
                 {
                     genreMap = new Dictionary<Genre, IList<Reminder>>();
